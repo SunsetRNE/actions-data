@@ -6,3 +6,4 @@ Actions 监控数据仓库（纯 JSON，无代码）。
 - `actions-history.json`：状态变化时间流（最近 300 条）
 
 数据通过 GitHub Pages 提供：`https://sunsetrne.github.io/actions-data/actions-runs.json`
+trigger pages build
