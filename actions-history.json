@@ -1,1 +1,29 @@
-[]
+[
+ {
+  "t": "2026-08-10T06:41:32Z",
+  "repo": "Operit",
+  "from": "ok",
+  "to": "failed",
+  "run": "Android Build",
+  "run_number": 6,
+  "conclusion": "failure"
+ },
+ {
+  "t": "2026-08-10T06:41:32Z",
+  "repo": "SunsetGitHub",
+  "from": "no_runs",
+  "to": "ok",
+  "run": "Rust + Android CI",
+  "run_number": 40,
+  "conclusion": "success"
+ },
+ {
+  "t": "2026-08-10T06:41:32Z",
+  "repo": "jcodemunch-mcp",
+  "from": "failed",
+  "to": "ok",
+  "run": "Tests",
+  "run_number": 7,
+  "conclusion": "success"
+ }
+]

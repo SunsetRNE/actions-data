@@ -1,14 +1,34 @@
 {
- "updated_at": "2026-08-06T09:38:07Z",
+ "updated_at": "2026-08-10T06:41:32Z",
  "generated_by": "actions_monitor.py",
  "summary": {
-  "total": 55,
+  "total": 58,
   "running": 1,
   "failed": 5,
-  "ok": 14,
+  "ok": 17,
   "no_runs": 35
  },
  "repos": [
+  {
+   "name": "Actions",
+   "category": "CI/产物",
+   "html_url": "https://github.com/SunsetRNE/Actions",
+   "runs": [
+    {
+     "id": 31362054840,
+     "run_number": 1,
+     "name": "pages build and deployment",
+     "display_title": "pages build and deployment",
+     "event": "dynamic",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-10T06:27:35Z",
+     "html_url": "https://github.com/SunsetRNE/Actions/actions/runs/31362054840",
+     "path": "dynamic/pages/pages-build-deployment"
+    }
+   ],
+   "note": ""
+  },
   {
    "name": "Aegis",
    "category": "工具/脚本",
@@ -77,27 +97,27 @@
    "html_url": "https://github.com/SunsetRNE/GKI_KernelSU_SUSFS",
    "runs": [
     {
-     "id": 30932019169,
+     "id": 31347802642,
      "run_number": 45,
-     "name": "Update Data & Deploy Pages",
-     "display_title": "Merge branch 'zzh20188:dev' into dev",
-     "event": "push",
+     "name": "Auto Trigger on SukiSU Update",
+     "display_title": "Auto Trigger on SukiSU Update",
+     "event": "schedule",
      "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-04T17:02:26Z",
-     "html_url": "https://github.com/SunsetRNE/GKI_KernelSU_SUSFS/actions/runs/30932019169",
-     "path": ".github/workflows/update-pages.yml"
+     "conclusion": "skipped",
+     "created_at": "2026-08-10T01:42:28Z",
+     "html_url": "https://github.com/SunsetRNE/GKI_KernelSU_SUSFS/actions/runs/31347802642",
+     "path": ".github/workflows/Auto_Trigger.yml"
     },
     {
-     "id": 30901601813,
-     "run_number": 44,
+     "id": 31164020082,
+     "run_number": 46,
      "name": "Update Data & Deploy Pages",
      "display_title": "Update Data & Deploy Pages",
      "event": "schedule",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-04T10:40:12Z",
-     "html_url": "https://github.com/SunsetRNE/GKI_KernelSU_SUSFS/actions/runs/30901601813",
+     "created_at": "2026-08-07T08:59:50Z",
+     "html_url": "https://github.com/SunsetRNE/GKI_KernelSU_SUSFS/actions/runs/31164020082",
      "path": ".github/workflows/update-pages.yml"
     }
    ],
@@ -116,6 +136,18 @@
    "html_url": "https://github.com/SunsetRNE/InstallerX-Revived",
    "runs": [
     {
+     "id": 31291998690,
+     "run_number": 21,
+     "name": "CodeQL",
+     "display_title": "CodeQL",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "skipped",
+     "created_at": "2026-08-09T03:13:45Z",
+     "html_url": "https://github.com/SunsetRNE/InstallerX-Revived/actions/runs/31291998690",
+     "path": ".github/workflows/codeql.yml"
+    },
+    {
      "id": 31072632763,
      "run_number": 5,
      "name": "Automatic Alpha Pre-Release (Latest Only)",
@@ -126,18 +158,6 @@
      "created_at": "2026-08-06T04:56:03Z",
      "html_url": "https://github.com/SunsetRNE/InstallerX-Revived/actions/runs/31072632763",
      "path": ".github/workflows/auto-preview-release.yml"
-    },
-    {
-     "id": 31072632753,
-     "run_number": 20,
-     "name": "CodeQL",
-     "display_title": "Merge branch 'wxxsfxyzm:main' into main",
-     "event": "push",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-06T04:56:03Z",
-     "html_url": "https://github.com/SunsetRNE/InstallerX-Revived/actions/runs/31072632753",
-     "path": ".github/workflows/codeql.yml"
     }
    ],
    "note": ""
@@ -214,27 +234,27 @@
    "html_url": "https://github.com/SunsetRNE/KernelSU",
    "runs": [
     {
-     "id": 31025252920,
-     "run_number": 1,
+     "id": 31353385136,
+     "run_number": 3,
      "name": "Build Manager",
-     "display_title": "build(deps): bump the crates group with 7 updates (#3616)",
+     "display_title": "ksud: Add boot image LKM injection",
      "event": "push",
      "status": "completed",
      "conclusion": "failure",
-     "created_at": "2026-08-05T16:26:09Z",
-     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/31025252920",
+     "created_at": "2026-08-10T03:43:25Z",
+     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/31353385136",
      "path": ".github/workflows/build-manager.yml"
     },
     {
-     "id": 31025252552,
-     "run_number": 1,
+     "id": 31353384938,
+     "run_number": 3,
      "name": "Clippy check",
-     "display_title": "build(deps): bump the crates group with 7 updates (#3616)",
+     "display_title": "ksud: Add boot image LKM injection",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-05T16:26:09Z",
-     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/31025252552",
+     "created_at": "2026-08-10T03:43:25Z",
+     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/31353384938",
      "path": ".github/workflows/clippy.yml"
     }
    ],
@@ -267,30 +287,37 @@
    "html_url": "https://github.com/SunsetRNE/Operit",
    "runs": [
     {
-     "id": 31072633887,
-     "run_number": 2,
+     "id": 31353385602,
+     "run_number": 6,
      "name": "Android Build",
-     "display_title": "Merge pull request #882 from AAswordman/ci/skip-android-lint",
-     "event": "push",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-06T04:56:05Z",
-     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31072633887",
-     "path": ".github/workflows/android-build.yml"
-    },
-    {
-     "id": 30962690560,
-     "run_number": 1,
-     "name": "Android Build",
-     "display_title": "fix: address MCP and queued chat regressions",
+     "display_title": "Merge pull request #913 from AAswordman/fix/copy-preview-sheet-rebound",
      "event": "push",
      "status": "completed",
      "conclusion": "failure",
-     "created_at": "2026-08-05T00:15:04Z",
-     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/30962690560",
+     "created_at": "2026-08-10T03:43:26Z",
+     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31353385602",
+     "path": ".github/workflows/android-build.yml"
+    },
+    {
+     "id": 31292350002,
+     "run_number": 5,
+     "name": "Android Build",
+     "display_title": "fix(market): preserve assets after registration failure (#896)",
+     "event": "push",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-09T03:24:12Z",
+     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31292350002",
      "path": ".github/workflows/android-build.yml"
     }
    ],
+   "note": ""
+  },
+  {
+   "name": "Operit2",
+   "category": "AI工具",
+   "html_url": "https://github.com/SunsetRNE/Operit2",
+   "runs": [],
    "note": ""
   },
   {
@@ -306,27 +333,27 @@
    "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI",
    "runs": [
     {
-     "id": 31067864823,
-     "run_number": 411,
+     "id": 31349181370,
+     "run_number": 423,
      "name": "Sync ReSukiSU CI Builds",
      "display_title": "Sync ReSukiSU CI Builds",
      "event": "schedule",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-06T03:14:02Z",
-     "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI/actions/runs/31067864823",
+     "created_at": "2026-08-10T02:12:58Z",
+     "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI/actions/runs/31349181370",
      "path": ".github/workflows/CI.yml"
     },
     {
-     "id": 31031516284,
-     "run_number": 410,
+     "id": 31324441181,
+     "run_number": 422,
      "name": "Sync ReSukiSU CI Builds",
      "display_title": "Sync ReSukiSU CI Builds",
      "event": "schedule",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-05T17:45:39Z",
-     "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI/actions/runs/31031516284",
+     "created_at": "2026-08-09T16:41:29Z",
+     "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI/actions/runs/31324441181",
      "path": ".github/workflows/CI.yml"
     }
    ],
@@ -338,28 +365,28 @@
    "html_url": "https://github.com/SunsetRNE/SukiSU-Ultra",
    "runs": [
     {
-     "id": 31065691595,
-     "run_number": 2,
+     "id": 31347791418,
+     "run_number": 6,
      "name": "Crowdin Action",
      "display_title": "Crowdin Action",
      "event": "schedule",
      "status": "completed",
      "conclusion": "failure",
-     "created_at": "2026-08-06T02:28:09Z",
-     "html_url": "https://github.com/SunsetRNE/SukiSU-Ultra/actions/runs/31065691595",
+     "created_at": "2026-08-10T01:42:13Z",
+     "html_url": "https://github.com/SunsetRNE/SukiSU-Ultra/actions/runs/31347791418",
      "path": ".github/workflows/crowdin.yml"
     },
     {
-     "id": 30962690758,
-     "run_number": 2,
-     "name": "ClangFormat check",
-     "display_title": "build(deps): bump the crates group with 12 updates (#3590)",
-     "event": "push",
+     "id": 31288708001,
+     "run_number": 5,
+     "name": "Crowdin Action",
+     "display_title": "Crowdin Action",
+     "event": "schedule",
      "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-05T00:15:04Z",
-     "html_url": "https://github.com/SunsetRNE/SukiSU-Ultra/actions/runs/30962690758",
-     "path": ".github/workflows/clang-format.yml"
+     "conclusion": "failure",
+     "created_at": "2026-08-09T01:39:12Z",
+     "html_url": "https://github.com/SunsetRNE/SukiSU-Ultra/actions/runs/31288708001",
+     "path": ".github/workflows/crowdin.yml"
     }
    ],
    "note": ""
@@ -370,27 +397,27 @@
    "html_url": "https://github.com/SunsetRNE/Sundown",
    "runs": [
     {
-     "id": 31061099328,
-     "run_number": 83,
+     "id": 31299111500,
+     "run_number": 91,
      "name": "build",
-     "display_title": "docs(readme): 重写自述文件，阶段严格对标 v0.4.52-l3（超时丢弃已落地）",
+     "display_title": "docs: bug-log 记录 B09（daemon.ready 优先基线）+ README 表格同步",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-06T00:53:15Z",
-     "html_url": "https://github.com/SunsetRNE/Sundown/actions/runs/31061099328",
+     "created_at": "2026-08-09T06:32:30Z",
+     "html_url": "https://github.com/SunsetRNE/Sundown/actions/runs/31299111500",
      "path": ".github/workflows/build.yml"
     },
     {
-     "id": 31050370338,
-     "run_number": 82,
+     "id": 31298710873,
+     "run_number": 90,
      "name": "build",
-     "display_title": "feat: v0.4.52-l3 超时丢弃三机制落地（release 57）",
+     "display_title": "docs: 记录缺陷与修复日志 B01-B08（实机校验闭环）+ README 同步（时间线/构建测试/新增 bug-log 章节）",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-05T21:50:49Z",
-     "html_url": "https://github.com/SunsetRNE/Sundown/actions/runs/31050370338",
+     "created_at": "2026-08-09T06:21:59Z",
+     "html_url": "https://github.com/SunsetRNE/Sundown/actions/runs/31298710873",
      "path": ".github/workflows/build.yml"
     }
    ],
@@ -400,7 +427,32 @@
    "name": "SunsetGitHub",
    "category": "工具/脚本",
    "html_url": "https://github.com/SunsetRNE/SunsetGitHub",
-   "runs": [],
+   "runs": [
+    {
+     "id": 31264220699,
+     "run_number": 40,
+     "name": "Rust + Android CI",
+     "display_title": "fix(ui-cleanup): 删除最后两个导航图 id 引用残留——SettingsFragment/WorkspaceSyncFra…",
+     "event": "push",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-08T15:20:39Z",
+     "html_url": "https://github.com/SunsetRNE/SunsetGitHub/actions/runs/31264220699",
+     "path": ".github/workflows/ci.yml"
+    },
+    {
+     "id": 31263518094,
+     "run_number": 39,
+     "name": "Rust + Android CI",
+     "display_title": "fix(ui-cleanup): 恢复 fragment_local_file_preview.xml——LocalFilePreview…",
+     "event": "push",
+     "status": "completed",
+     "conclusion": "failure",
+     "created_at": "2026-08-08T15:03:55Z",
+     "html_url": "https://github.com/SunsetRNE/SunsetGitHub/actions/runs/31263518094",
+     "path": ".github/workflows/ci.yml"
+    }
+   ],
    "note": ""
   },
   {
@@ -409,28 +461,28 @@
    "html_url": "https://github.com/SunsetRNE/SunsetRNE.github.io",
    "runs": [
     {
-     "id": 31089915207,
-     "run_number": 2,
+     "id": 31362927854,
+     "run_number": 97,
      "name": "Actions Monitor",
      "display_title": "Actions Monitor",
      "event": "schedule",
      "status": "in_progress",
      "conclusion": "",
-     "created_at": "2026-08-06T09:37:58Z",
-     "html_url": "https://github.com/SunsetRNE/SunsetRNE.github.io/actions/runs/31089915207",
+     "created_at": "2026-08-10T06:41:25Z",
+     "html_url": "https://github.com/SunsetRNE/SunsetRNE.github.io/actions/runs/31362927854",
      "path": ".github/workflows/actions-monitor.yml"
     },
     {
-     "id": 31088983358,
-     "run_number": 48,
-     "name": "Deploy Pages",
-     "display_title": "fix(monitor): 隐藏监控页回到顶部占位（VPLocalNav fixed 形态）",
-     "event": "push",
+     "id": 31357602219,
+     "run_number": 96,
+     "name": "Actions Monitor",
+     "display_title": "Actions Monitor",
+     "event": "schedule",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-06T09:24:44Z",
-     "html_url": "https://github.com/SunsetRNE/SunsetRNE.github.io/actions/runs/31088983358",
-     "path": ".github/workflows/deploy.yml"
+     "created_at": "2026-08-10T05:07:35Z",
+     "html_url": "https://github.com/SunsetRNE/SunsetRNE.github.io/actions/runs/31357602219",
+     "path": ".github/workflows/actions-monitor.yml"
     }
    ],
    "note": ""
@@ -447,6 +499,26 @@
    "category": "Root方案",
    "html_url": "https://github.com/SunsetRNE/Wild_KSU",
    "runs": [],
+   "note": ""
+  },
+  {
+   "name": "actions-data",
+   "category": "CI/产物",
+   "html_url": "https://github.com/SunsetRNE/actions-data",
+   "runs": [
+    {
+     "id": 31109126683,
+     "run_number": 1,
+     "name": "pages build and deployment",
+     "display_title": "pages build and deployment",
+     "event": "dynamic",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-06T14:06:03Z",
+     "html_url": "https://github.com/SunsetRNE/actions-data/actions/runs/31109126683",
+     "path": "dynamic/pages/pages-build-deployment"
+    }
+   ],
    "note": ""
   },
   {
@@ -525,27 +597,27 @@
    "html_url": "https://github.com/SunsetRNE/auto-green",
    "runs": [
     {
-     "id": 31069473573,
-     "run_number": 150,
+     "id": 31350431514,
+     "run_number": 154,
      "name": "Auto Commit",
      "display_title": "Auto Commit",
      "event": "schedule",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-06T03:48:51Z",
-     "html_url": "https://github.com/SunsetRNE/auto-green/actions/runs/31069473573",
+     "created_at": "2026-08-10T02:40:33Z",
+     "html_url": "https://github.com/SunsetRNE/auto-green/actions/runs/31350431514",
      "path": ".github/workflows/auto-commit.yml"
     },
     {
-     "id": 30973041501,
-     "run_number": 149,
+     "id": 31290635119,
+     "run_number": 153,
      "name": "Auto Commit",
      "display_title": "Auto Commit",
      "event": "schedule",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-05T03:42:46Z",
-     "html_url": "https://github.com/SunsetRNE/auto-green/actions/runs/30973041501",
+     "created_at": "2026-08-09T02:35:03Z",
+     "html_url": "https://github.com/SunsetRNE/auto-green/actions/runs/31290635119",
      "path": ".github/workflows/auto-commit.yml"
     }
    ],
@@ -571,6 +643,18 @@
    "html_url": "https://github.com/SunsetRNE/device_faker",
    "runs": [
     {
+     "id": 31292348869,
+     "run_number": 4,
+     "name": "Build Device Faker Module",
+     "display_title": "refactor(webui): 移除WebUI设置页默认强制卸载挂载点开关",
+     "event": "push",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-09T03:24:10Z",
+     "html_url": "https://github.com/SunsetRNE/device_faker/actions/runs/31292348869",
+     "path": ".github/workflows/build.yml"
+    },
+    {
      "id": 30755260681,
      "run_number": 3,
      "name": "Build Device Faker Module",
@@ -580,18 +664,6 @@
      "conclusion": "success",
      "created_at": "2026-08-02T15:50:34Z",
      "html_url": "https://github.com/SunsetRNE/device_faker/actions/runs/30755260681",
-     "path": ".github/workflows/build.yml"
-    },
-    {
-     "id": 28922135207,
-     "run_number": 2,
-     "name": "Build Device Faker Module",
-     "display_title": "feat(webui): CPU 伪装字段默认折叠收纳",
-     "event": "push",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-07-08T06:22:16Z",
-     "html_url": "https://github.com/SunsetRNE/device_faker/actions/runs/28922135207",
      "path": ".github/workflows/build.yml"
     }
    ],
@@ -603,28 +675,28 @@
    "html_url": "https://github.com/SunsetRNE/headroom",
    "runs": [
     {
-     "id": 31072632624,
-     "run_number": 4,
-     "name": "Merge Conflicts",
-     "display_title": "feat(beacon): allowlist the routing summary key (#2818)",
+     "id": 31353384754,
+     "run_number": 7,
+     "name": "CI",
+     "display_title": "fix(litellm): don't forward a caller key the target cannot accept (#2…",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-06T04:56:03Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31072632624",
-     "path": ".github/workflows/merge-conflicts.yml"
+     "created_at": "2026-08-10T03:43:24Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31353384754",
+     "path": ".github/workflows/ci.yml"
     },
     {
-     "id": 31072632613,
-     "run_number": 4,
-     "name": "Wrap E2E",
-     "display_title": "feat(beacon): allowlist the routing summary key (#2818)",
+     "id": 31353384751,
+     "run_number": 7,
+     "name": "Init Native E2E",
+     "display_title": "fix(litellm): don't forward a caller key the target cannot accept (#2…",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-06T04:56:03Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31072632613",
-     "path": ".github/workflows/wrap-e2e.yml"
+     "created_at": "2026-08-10T03:43:24Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31353384751",
+     "path": ".github/workflows/init-native-e2e.yml"
     }
    ],
    "note": ""
@@ -635,27 +707,27 @@
    "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp",
    "runs": [
     {
-     "id": 31072633141,
-     "run_number": 3,
+     "id": 31353385003,
+     "run_number": 7,
      "name": "Tests",
-     "display_title": "fix: marketplace github sources clone over SSH and fail without a key",
-     "event": "push",
-     "status": "completed",
-     "conclusion": "failure",
-     "created_at": "2026-08-06T04:56:04Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31072633141",
-     "path": ".github/workflows/test.yml"
-    },
-    {
-     "id": 31072633137,
-     "run_number": 3,
-     "name": "Replay",
-     "display_title": "fix: marketplace github sources clone over SSH and fail without a key",
+     "display_title": "release: v1.108.270 - a directory that declares itself a cache is not…",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-06T04:56:04Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31072633137",
+     "created_at": "2026-08-10T03:43:25Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31353385003",
+     "path": ".github/workflows/test.yml"
+    },
+    {
+     "id": 31353385001,
+     "run_number": 7,
+     "name": "Replay",
+     "display_title": "release: v1.108.270 - a directory that declares itself a cache is not…",
+     "event": "push",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-10T03:43:25Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31353385001",
      "path": ".github/workflows/replay.yml"
     }
    ],
@@ -695,28 +767,28 @@
    "html_url": "https://github.com/SunsetRNE/open-interpreter",
    "runs": [
     {
-     "id": 30966120433,
-     "run_number": 1,
-     "name": "cargo-ci",
-     "display_title": "Update README hero for Kimi K3 (#1861)",
+     "id": 31292349635,
+     "run_number": 2,
+     "name": "public-ci",
+     "display_title": "Fix update prompt after upstream helper removal (#1866)",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-05T01:20:58Z",
-     "html_url": "https://github.com/SunsetRNE/open-interpreter/actions/runs/30966120433",
-     "path": ".github/workflows/cargo-ci.yml"
+     "created_at": "2026-08-09T03:24:11Z",
+     "html_url": "https://github.com/SunsetRNE/open-interpreter/actions/runs/31292349635",
+     "path": ".github/workflows/public-ci.yml"
     },
     {
-     "id": 30966120404,
-     "run_number": 1,
-     "name": "public-ci",
-     "display_title": "Update README hero for Kimi K3 (#1861)",
+     "id": 31292349625,
+     "run_number": 2,
+     "name": "cargo-ci",
+     "display_title": "Fix update prompt after upstream helper removal (#1866)",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-05T01:20:58Z",
-     "html_url": "https://github.com/SunsetRNE/open-interpreter/actions/runs/30966120404",
-     "path": ".github/workflows/public-ci.yml"
+     "created_at": "2026-08-09T03:24:11Z",
+     "html_url": "https://github.com/SunsetRNE/open-interpreter/actions/runs/31292349625",
+     "path": ".github/workflows/cargo-ci.yml"
     }
    ],
    "note": ""
@@ -727,27 +799,27 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
-     "id": 31086639867,
-     "run_number": 31,
+     "id": 31359390832,
+     "run_number": 140,
      "name": "🔄 统一编译触发器（消费入队）",
      "display_title": "🔄 统一编译触发器（消费入队）",
      "event": "schedule",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-06T08:51:46Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31086639867",
+     "created_at": "2026-08-10T05:41:25Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31359390832",
      "path": ".github/workflows/compile_trigger.yml"
     },
     {
-     "id": 31076509666,
-     "run_number": 30,
+     "id": 31354665133,
+     "run_number": 139,
      "name": "🔄 统一编译触发器（消费入队）",
      "display_title": "🔄 统一编译触发器（消费入队）",
      "event": "schedule",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-06T06:12:21Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31076509666",
+     "created_at": "2026-08-10T04:10:30Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31354665133",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],
