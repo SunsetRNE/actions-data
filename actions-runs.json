@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-10T16:35:58Z",
+ "updated_at": "2026-08-10T17:34:24Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 55,
@@ -313,6 +313,18 @@
    "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI",
    "runs": [
     {
+     "id": 31411663850,
+     "run_number": 425,
+     "name": "Sync ReSukiSU CI Builds",
+     "display_title": "Sync ReSukiSU CI Builds",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-10T16:58:10Z",
+     "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI/actions/runs/31411663850",
+     "path": ".github/workflows/CI.yml"
+    },
+    {
      "id": 31375575523,
      "run_number": 424,
      "name": "Sync ReSukiSU CI Builds",
@@ -322,18 +334,6 @@
      "conclusion": "success",
      "created_at": "2026-08-10T09:38:45Z",
      "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI/actions/runs/31375575523",
-     "path": ".github/workflows/CI.yml"
-    },
-    {
-     "id": 31349181370,
-     "run_number": 423,
-     "name": "Sync ReSukiSU CI Builds",
-     "display_title": "Sync ReSukiSU CI Builds",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-10T02:12:58Z",
-     "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI/actions/runs/31349181370",
      "path": ".github/workflows/CI.yml"
     }
    ],
@@ -377,27 +377,27 @@
    "html_url": "https://github.com/SunsetRNE/Sundown",
    "runs": [
     {
-     "id": 31299111500,
-     "run_number": 91,
+     "id": 31411722155,
+     "run_number": 93,
      "name": "build",
-     "display_title": "docs: bug-log 记录 B09（daemon.ready 优先基线）+ README 表格同步",
+     "display_title": "docs: 修正 CRITICAL_PACKAGES 计数表述（37→46，实机日志核对）",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-09T06:32:30Z",
-     "html_url": "https://github.com/SunsetRNE/Sundown/actions/runs/31299111500",
+     "created_at": "2026-08-10T16:58:52Z",
+     "html_url": "https://github.com/SunsetRNE/Sundown/actions/runs/31411722155",
      "path": ".github/workflows/build.yml"
     },
     {
-     "id": 31298710873,
-     "run_number": 90,
+     "id": 31411553815,
+     "run_number": 92,
      "name": "build",
-     "display_title": "docs: 记录缺陷与修复日志 B01-B08（实机校验闭环）+ README 同步（时间线/构建测试/新增 bug-log 章节）",
+     "display_title": "feat: v0.4.55-l3 系统组件保护强化（release 60）——CRITICAL +9 / pm -f 分区判定 / dis…",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-09T06:21:59Z",
-     "html_url": "https://github.com/SunsetRNE/Sundown/actions/runs/31298710873",
+     "created_at": "2026-08-10T16:56:50Z",
+     "html_url": "https://github.com/SunsetRNE/Sundown/actions/runs/31411553815",
      "path": ".github/workflows/build.yml"
     }
    ],
@@ -727,6 +727,18 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
+     "id": 31413854135,
+     "run_number": 151,
+     "name": "🔄 统一编译触发器（消费入队）",
+     "display_title": "🔄 统一编译触发器（消费入队）",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-10T17:24:22Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31413854135",
+     "path": ".github/workflows/compile_trigger.yml"
+    },
+    {
      "id": 31409136846,
      "run_number": 150,
      "name": "🔄 统一编译触发器（消费入队）",
@@ -736,18 +748,6 @@
      "conclusion": "success",
      "created_at": "2026-08-10T16:28:33Z",
      "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31409136846",
-     "path": ".github/workflows/compile_trigger.yml"
-    },
-    {
-     "id": 31404819096,
-     "run_number": 149,
-     "name": "🔄 统一编译触发器（消费入队）",
-     "display_title": "🔄 统一编译触发器（消费入队）",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-10T15:39:51Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31404819096",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],
