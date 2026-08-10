@@ -1,34 +1,14 @@
 {
- "updated_at": "2026-08-10T14:41:49Z",
+ "updated_at": "2026-08-10T15:41:57Z",
  "generated_by": "actions_monitor.py",
  "summary": {
-  "total": 58,
-  "running": 1,
+  "total": 55,
+  "running": 0,
   "failed": 5,
-  "ok": 17,
+  "ok": 15,
   "no_runs": 35
  },
  "repos": [
-  {
-   "name": "Actions",
-   "category": "CI/产物",
-   "html_url": "https://github.com/SunsetRNE/Actions",
-   "runs": [
-    {
-     "id": 31362054840,
-     "run_number": 1,
-     "name": "pages build and deployment",
-     "display_title": "pages build and deployment",
-     "event": "dynamic",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-10T06:27:35Z",
-     "html_url": "https://github.com/SunsetRNE/Actions/actions/runs/31362054840",
-     "path": "dynamic/pages/pages-build-deployment"
-    }
-   ],
-   "note": ""
-  },
   {
    "name": "Aegis",
    "category": "工具/脚本",
@@ -456,38 +436,6 @@
    "note": ""
   },
   {
-   "name": "SunsetRNE.github.io",
-   "category": "工具/脚本",
-   "html_url": "https://github.com/SunsetRNE/SunsetRNE.github.io",
-   "runs": [
-    {
-     "id": 31399539229,
-     "run_number": 104,
-     "name": "Actions Monitor",
-     "display_title": "Actions Monitor",
-     "event": "schedule",
-     "status": "in_progress",
-     "conclusion": "",
-     "created_at": "2026-08-10T14:41:38Z",
-     "html_url": "https://github.com/SunsetRNE/SunsetRNE.github.io/actions/runs/31399539229",
-     "path": ".github/workflows/actions-monitor.yml"
-    },
-    {
-     "id": 31393630377,
-     "run_number": 103,
-     "name": "Actions Monitor",
-     "display_title": "Actions Monitor",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-10T13:35:04Z",
-     "html_url": "https://github.com/SunsetRNE/SunsetRNE.github.io/actions/runs/31393630377",
-     "path": ".github/workflows/actions-monitor.yml"
-    }
-   ],
-   "note": ""
-  },
-  {
    "name": "Tricky-Addon-Update-Target-List",
    "category": "模块/框架",
    "html_url": "https://github.com/SunsetRNE/Tricky-Addon-Update-Target-List",
@@ -499,38 +447,6 @@
    "category": "Root方案",
    "html_url": "https://github.com/SunsetRNE/Wild_KSU",
    "runs": [],
-   "note": ""
-  },
-  {
-   "name": "actions-data",
-   "category": "CI/产物",
-   "html_url": "https://github.com/SunsetRNE/actions-data",
-   "runs": [
-    {
-     "id": 31393917590,
-     "run_number": 8,
-     "name": "pages build and deployment",
-     "display_title": "pages build and deployment",
-     "event": "dynamic",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-10T13:38:27Z",
-     "html_url": "https://github.com/SunsetRNE/actions-data/actions/runs/31393917590",
-     "path": "dynamic/pages/pages-build-deployment"
-    },
-    {
-     "id": 31386058986,
-     "run_number": 7,
-     "name": "pages build and deployment",
-     "display_title": "pages build and deployment",
-     "event": "dynamic",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-10T12:01:01Z",
-     "html_url": "https://github.com/SunsetRNE/actions-data/actions/runs/31386058986",
-     "path": "dynamic/pages/pages-build-deployment"
-    }
-   ],
    "note": ""
   },
   {
@@ -687,6 +603,18 @@
    "html_url": "https://github.com/SunsetRNE/headroom",
    "runs": [
     {
+     "id": 31403661880,
+     "run_number": 4,
+     "name": "PR Governance",
+     "display_title": "PR Governance",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-10T15:27:12Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31403661880",
+     "path": ".github/workflows/pr-health.yml"
+    },
+    {
      "id": 31371991823,
      "run_number": 11,
      "name": "rust",
@@ -697,18 +625,6 @@
      "created_at": "2026-08-10T08:52:15Z",
      "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31371991823",
      "path": ".github/workflows/rust.yml"
-    },
-    {
-     "id": 31365389293,
-     "run_number": 1,
-     "name": "Evaluation Suite",
-     "display_title": "Evaluation Suite",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-10T07:19:25Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31365389293",
-     "path": ".github/workflows/eval.yml"
     }
    ],
    "note": ""
@@ -811,27 +727,27 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
-     "id": 31395080168,
-     "run_number": 147,
+     "id": 31404819096,
+     "run_number": 149,
      "name": "🔄 统一编译触发器（消费入队）",
      "display_title": "🔄 统一编译触发器（消费入队）",
      "event": "schedule",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-10T13:52:01Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31395080168",
+     "created_at": "2026-08-10T15:39:51Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31404819096",
      "path": ".github/workflows/compile_trigger.yml"
     },
     {
-     "id": 31388057622,
-     "run_number": 146,
+     "id": 31399973848,
+     "run_number": 148,
      "name": "🔄 统一编译触发器（消费入队）",
      "display_title": "🔄 统一编译触发器（消费入队）",
      "event": "schedule",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-10T12:26:51Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31388057622",
+     "created_at": "2026-08-10T14:46:24Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31399973848",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],
