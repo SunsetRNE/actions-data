@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-11T16:09:45Z",
+ "updated_at": "2026-08-11T16:15:34Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 55,
@@ -603,6 +603,18 @@
    "html_url": "https://github.com/SunsetRNE/headroom",
    "runs": [
     {
+     "id": 31510946915,
+     "run_number": 5,
+     "name": "Stale Triage",
+     "display_title": "Stale Triage",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-11T16:09:57Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31510946915",
+     "path": ".github/workflows/stale.yml"
+    },
+    {
      "id": 31506980807,
      "run_number": 5,
      "name": "PR Governance",
@@ -613,18 +625,6 @@
      "created_at": "2026-08-11T15:25:57Z",
      "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31506980807",
      "path": ".github/workflows/pr-health.yml"
-    },
-    {
-     "id": 31472437474,
-     "run_number": 13,
-     "name": "rust",
-     "display_title": "rust",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-11T08:15:52Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31472437474",
-     "path": ".github/workflows/rust.yml"
     }
    ],
    "note": ""
