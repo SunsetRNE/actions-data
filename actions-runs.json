@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-11T02:23:43Z",
+ "updated_at": "2026-08-11T04:00:34Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 55,
@@ -214,28 +214,28 @@
    "html_url": "https://github.com/SunsetRNE/KernelSU",
    "runs": [
     {
-     "id": 31353385136,
-     "run_number": 3,
+     "id": 31455387418,
+     "run_number": 4,
      "name": "Build Manager",
-     "display_title": "ksud: Add boot image LKM injection",
+     "display_title": "refactor(kernel): Drop v1 signature verification (#3628)",
      "event": "push",
      "status": "completed",
      "conclusion": "failure",
-     "created_at": "2026-08-10T03:43:25Z",
-     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/31353385136",
+     "created_at": "2026-08-11T03:26:18Z",
+     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/31455387418",
      "path": ".github/workflows/build-manager.yml"
     },
     {
-     "id": 31353384938,
-     "run_number": 3,
-     "name": "Clippy check",
-     "display_title": "ksud: Add boot image LKM injection",
+     "id": 31455387200,
+     "run_number": 4,
+     "name": "Rustfmt check",
+     "display_title": "refactor(kernel): Drop v1 signature verification (#3628)",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-10T03:43:25Z",
-     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/31353384938",
-     "path": ".github/workflows/clippy.yml"
+     "created_at": "2026-08-11T03:26:18Z",
+     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/31455387200",
+     "path": ".github/workflows/rustfmt.yml"
     }
    ],
    "note": ""
@@ -525,6 +525,18 @@
    "html_url": "https://github.com/SunsetRNE/auto-green",
    "runs": [
     {
+     "id": 31452791913,
+     "run_number": 155,
+     "name": "Auto Commit",
+     "display_title": "Auto Commit",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-11T02:34:40Z",
+     "html_url": "https://github.com/SunsetRNE/auto-green/actions/runs/31452791913",
+     "path": ".github/workflows/auto-commit.yml"
+    },
+    {
      "id": 31350431514,
      "run_number": 154,
      "name": "Auto Commit",
@@ -534,18 +546,6 @@
      "conclusion": "success",
      "created_at": "2026-08-10T02:40:33Z",
      "html_url": "https://github.com/SunsetRNE/auto-green/actions/runs/31350431514",
-     "path": ".github/workflows/auto-commit.yml"
-    },
-    {
-     "id": 31290635119,
-     "run_number": 153,
-     "name": "Auto Commit",
-     "display_title": "Auto Commit",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-09T02:35:03Z",
-     "html_url": "https://github.com/SunsetRNE/auto-green/actions/runs/31290635119",
      "path": ".github/workflows/auto-commit.yml"
     }
    ],
@@ -603,28 +603,28 @@
    "html_url": "https://github.com/SunsetRNE/headroom",
    "runs": [
     {
-     "id": 31407377133,
-     "run_number": 4,
-     "name": "Stale Triage",
-     "display_title": "Stale Triage",
-     "event": "schedule",
+     "id": 31455386715,
+     "run_number": 8,
+     "name": "CI",
+     "display_title": "deps: bump hf-hub from 0.4.3 to 0.5.0 (#2285)",
+     "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-10T16:08:35Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31407377133",
-     "path": ".github/workflows/stale.yml"
+     "created_at": "2026-08-11T03:26:17Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31455386715",
+     "path": ".github/workflows/ci.yml"
     },
     {
-     "id": 31403661880,
-     "run_number": 4,
-     "name": "PR Governance",
-     "display_title": "PR Governance",
-     "event": "schedule",
+     "id": 31455386694,
+     "run_number": 12,
+     "name": "rust",
+     "display_title": "deps: bump hf-hub from 0.4.3 to 0.5.0 (#2285)",
+     "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-10T15:27:12Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31403661880",
-     "path": ".github/workflows/pr-health.yml"
+     "created_at": "2026-08-11T03:26:17Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31455386694",
+     "path": ".github/workflows/rust.yml"
     }
    ],
    "note": ""
@@ -635,28 +635,28 @@
    "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp",
    "runs": [
     {
-     "id": 31371234101,
-     "run_number": 2,
-     "name": "Benchmark",
-     "display_title": "Benchmark",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-10T08:42:06Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31371234101",
-     "path": ".github/workflows/benchmark.yml"
-    },
-    {
-     "id": 31353385003,
-     "run_number": 7,
+     "id": 31455386995,
+     "run_number": 8,
      "name": "Tests",
-     "display_title": "release: v1.108.270 - a directory that declares itself a cache is not…",
+     "display_title": "fix(tests): stop the suite reading and writing the developer's real c…",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-10T03:43:25Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31353385003",
+     "created_at": "2026-08-11T03:26:18Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31455386995",
      "path": ".github/workflows/test.yml"
+    },
+    {
+     "id": 31455386932,
+     "run_number": 8,
+     "name": "Replay",
+     "display_title": "fix(tests): stop the suite reading and writing the developer's real c…",
+     "event": "push",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-11T03:26:18Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31455386932",
+     "path": ".github/workflows/replay.yml"
     }
    ],
    "note": ""
@@ -727,6 +727,18 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
+     "id": 31453494057,
+     "run_number": 162,
+     "name": "🔄 统一编译触发器（消费入队）",
+     "display_title": "🔄 统一编译触发器（消费入队）",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-11T02:48:49Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31453494057",
+     "path": ".github/workflows/compile_trigger.yml"
+    },
+    {
      "id": 31446791112,
      "run_number": 161,
      "name": "🔄 统一编译触发器（消费入队）",
@@ -736,18 +748,6 @@
      "conclusion": "success",
      "created_at": "2026-08-11T00:39:25Z",
      "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31446791112",
-     "path": ".github/workflows/compile_trigger.yml"
-    },
-    {
-     "id": 31444046799,
-     "run_number": 160,
-     "name": "🔄 统一编译触发器（消费入队）",
-     "display_title": "🔄 统一编译触发器（消费入队）",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-10T23:53:24Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31444046799",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],
