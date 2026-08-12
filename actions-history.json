@@ -52,5 +52,14 @@
   "run": "Android Build",
   "run_number": 7,
   "conclusion": "success"
+ },
+ {
+  "t": "2026-08-12T10:39:33Z",
+  "repo": "oppo_oplus_realme",
+  "from": "ok",
+  "to": "failed",
+  "run": "🔄 统一编译触发器（消费入队）",
+  "run_number": 192,
+  "conclusion": "failure"
  }
 ]
