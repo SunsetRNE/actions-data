@@ -1,11 +1,11 @@
 {
- "updated_at": "2026-08-12T03:34:03Z",
+ "updated_at": "2026-08-12T05:17:43Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 55,
   "running": 0,
-  "failed": 5,
-  "ok": 15,
+  "failed": 4,
+  "ok": 16,
   "no_runs": 35
  },
  "repos": [
@@ -267,6 +267,18 @@
    "html_url": "https://github.com/SunsetRNE/Operit",
    "runs": [
     {
+     "id": 31561596897,
+     "run_number": 7,
+     "name": "Android Build",
+     "display_title": "Merge pull request #926 from AAswordman/fix/jvm-json-test-runtime",
+     "event": "push",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-12T03:55:31Z",
+     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31561596897",
+     "path": ".github/workflows/android-build.yml"
+    },
+    {
      "id": 31353385602,
      "run_number": 6,
      "name": "Android Build",
@@ -276,18 +288,6 @@
      "conclusion": "failure",
      "created_at": "2026-08-10T03:43:26Z",
      "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31353385602",
-     "path": ".github/workflows/android-build.yml"
-    },
-    {
-     "id": 31292350002,
-     "run_number": 5,
-     "name": "Android Build",
-     "display_title": "fix(market): preserve assets after registration failure (#896)",
-     "event": "push",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-09T03:24:12Z",
-     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31292350002",
      "path": ".github/workflows/android-build.yml"
     }
    ],
@@ -603,28 +603,28 @@
    "html_url": "https://github.com/SunsetRNE/headroom",
    "runs": [
     {
-     "id": 31510946915,
-     "run_number": 5,
-     "name": "Stale Triage",
-     "display_title": "Stale Triage",
-     "event": "schedule",
+     "id": 31561595637,
+     "run_number": 14,
+     "name": "rust",
+     "display_title": "fix(proxy): include tool_search_deferral savings in the savings ledger",
+     "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-11T16:09:57Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31510946915",
-     "path": ".github/workflows/stale.yml"
+     "created_at": "2026-08-12T03:55:30Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31561595637",
+     "path": ".github/workflows/rust.yml"
     },
     {
-     "id": 31506980807,
-     "run_number": 5,
-     "name": "PR Governance",
-     "display_title": "PR Governance",
-     "event": "schedule",
+     "id": 31561595586,
+     "run_number": 9,
+     "name": "CI",
+     "display_title": "fix(proxy): include tool_search_deferral savings in the savings ledger",
+     "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-11T15:25:57Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31506980807",
-     "path": ".github/workflows/pr-health.yml"
+     "created_at": "2026-08-12T03:55:30Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31561595586",
+     "path": ".github/workflows/ci.yml"
     }
    ],
    "note": ""
@@ -635,28 +635,28 @@
    "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp",
    "runs": [
     {
-     "id": 31455386995,
-     "run_number": 8,
-     "name": "Tests",
-     "display_title": "fix(tests): stop the suite reading and writing the developer's real c…",
+     "id": 31561596417,
+     "run_number": 9,
+     "name": "Replay",
+     "display_title": "Merge pull request #433 from lilubot/fix/nextjs-src-app-layout",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-11T03:26:18Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31455386995",
-     "path": ".github/workflows/test.yml"
+     "created_at": "2026-08-12T03:55:31Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31561596417",
+     "path": ".github/workflows/replay.yml"
     },
     {
-     "id": 31455386932,
-     "run_number": 8,
-     "name": "Replay",
-     "display_title": "fix(tests): stop the suite reading and writing the developer's real c…",
+     "id": 31561596364,
+     "run_number": 9,
+     "name": "Tests",
+     "display_title": "Merge pull request #433 from lilubot/fix/nextjs-src-app-layout",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-11T03:26:18Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31455386932",
-     "path": ".github/workflows/replay.yml"
+     "created_at": "2026-08-12T03:55:31Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31561596364",
+     "path": ".github/workflows/test.yml"
     }
    ],
    "note": ""
@@ -727,6 +727,18 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
+     "id": 31565834679,
+     "run_number": 188,
+     "name": "🔄 统一编译触发器（消费入队）",
+     "display_title": "🔄 统一编译触发器（消费入队）",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-12T05:13:25Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31565834679",
+     "path": ".github/workflows/compile_trigger.yml"
+    },
+    {
      "id": 31560189899,
      "run_number": 187,
      "name": "🔄 统一编译触发器（消费入队）",
@@ -736,18 +748,6 @@
      "conclusion": "success",
      "created_at": "2026-08-12T03:28:41Z",
      "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31560189899",
-     "path": ".github/workflows/compile_trigger.yml"
-    },
-    {
-     "id": 31552682469,
-     "run_number": 186,
-     "name": "🔄 统一编译触发器（消费入队）",
-     "display_title": "🔄 统一编译触发器（消费入队）",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-12T01:09:39Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31552682469",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],
