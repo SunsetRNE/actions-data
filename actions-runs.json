@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-12T08:06:47Z",
+ "updated_at": "2026-08-12T09:31:05Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 55,
@@ -313,6 +313,18 @@
    "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI",
    "runs": [
     {
+     "id": 31582145144,
+     "run_number": 430,
+     "name": "Sync ReSukiSU CI Builds",
+     "display_title": "Sync ReSukiSU CI Builds",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-12T09:16:14Z",
+     "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI/actions/runs/31582145144",
+     "path": ".github/workflows/CI.yml"
+    },
+    {
      "id": 31556759083,
      "run_number": 429,
      "name": "Sync ReSukiSU CI Builds",
@@ -322,18 +334,6 @@
      "conclusion": "success",
      "created_at": "2026-08-12T02:24:21Z",
      "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI/actions/runs/31556759083",
-     "path": ".github/workflows/CI.yml"
-    },
-    {
-     "id": 31515488812,
-     "run_number": 428,
-     "name": "Sync ReSukiSU CI Builds",
-     "display_title": "Sync ReSukiSU CI Builds",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-11T17:01:56Z",
-     "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI/actions/runs/31515488812",
      "path": ".github/workflows/CI.yml"
     }
    ],
@@ -377,27 +377,27 @@
    "html_url": "https://github.com/SunsetRNE/Sundown",
    "runs": [
     {
-     "id": 31576333135,
-     "run_number": 116,
+     "id": 31582451388,
+     "run_number": 122,
      "name": "build",
-     "display_title": "docs(changelog): v0.4.62-l3 补实机验证记录（subscribe声明/capability-probe/env-…",
+     "display_title": "feat(webui): C 档画像页消费——新增画像 tab（WebUI v2.5）：sunctl analyze 建议卡片（level…",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-12T07:59:46Z",
-     "html_url": "https://github.com/SunsetRNE/Sundown/actions/runs/31576333135",
+     "created_at": "2026-08-12T09:20:25Z",
+     "html_url": "https://github.com/SunsetRNE/Sundown/actions/runs/31582451388",
      "path": ".github/workflows/build.yml"
     },
     {
-     "id": 31575901690,
-     "run_number": 115,
+     "id": 31582303349,
+     "run_number": 121,
      "name": "build",
-     "display_title": "fix(dex): def.stack-dump 拆双条目恢复 AMS 兜底（实机校准：ColorOS ProcessList 类在方法不…",
+     "display_title": "docs(changelog): A2/A3 实机体验验证记录（instant 立即落冻实证 + 三源门控 receiver_gated …",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-12T07:53:38Z",
-     "html_url": "https://github.com/SunsetRNE/Sundown/actions/runs/31575901690",
+     "created_at": "2026-08-12T09:18:25Z",
+     "html_url": "https://github.com/SunsetRNE/Sundown/actions/runs/31582303349",
      "path": ".github/workflows/build.yml"
     }
    ],
@@ -603,6 +603,18 @@
    "html_url": "https://github.com/SunsetRNE/headroom",
    "runs": [
     {
+     "id": 31579415905,
+     "run_number": 15,
+     "name": "rust",
+     "display_title": "rust",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-12T08:40:40Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31579415905",
+     "path": ".github/workflows/rust.yml"
+    },
+    {
      "id": 31561595637,
      "run_number": 14,
      "name": "rust",
@@ -613,18 +625,6 @@
      "created_at": "2026-08-12T03:55:30Z",
      "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31561595637",
      "path": ".github/workflows/rust.yml"
-    },
-    {
-     "id": 31561595586,
-     "run_number": 9,
-     "name": "CI",
-     "display_title": "fix(proxy): include tool_search_deferral savings in the savings ledger",
-     "event": "push",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-12T03:55:30Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31561595586",
-     "path": ".github/workflows/ci.yml"
     }
    ],
    "note": ""
@@ -727,6 +727,18 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
+     "id": 31582330600,
+     "run_number": 191,
+     "name": "🔄 统一编译触发器（消费入队）",
+     "display_title": "🔄 统一编译触发器（消费入队）",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-12T09:18:48Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31582330600",
+     "path": ".github/workflows/compile_trigger.yml"
+    },
+    {
      "id": 31576557239,
      "run_number": 190,
      "name": "🔄 统一编译触发器（消费入队）",
@@ -736,18 +748,6 @@
      "conclusion": "success",
      "created_at": "2026-08-12T08:02:41Z",
      "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31576557239",
-     "path": ".github/workflows/compile_trigger.yml"
-    },
-    {
-     "id": 31570965703,
-     "run_number": 189,
-     "name": "🔄 统一编译触发器（消费入队）",
-     "display_title": "🔄 统一编译触发器（消费入队）",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-12T06:41:37Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31570965703",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],
