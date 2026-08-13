@@ -1,11 +1,11 @@
 {
- "updated_at": "2026-08-13T03:18:07Z",
+ "updated_at": "2026-08-13T05:13:31Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 55,
   "running": 0,
-  "failed": 4,
-  "ok": 16,
+  "failed": 6,
+  "ok": 14,
   "no_runs": 35
  },
  "repos": [
@@ -214,28 +214,28 @@
    "html_url": "https://github.com/SunsetRNE/KernelSU",
    "runs": [
     {
-     "id": 31455387418,
-     "run_number": 4,
+     "id": 31665610894,
+     "run_number": 5,
      "name": "Build Manager",
-     "display_title": "refactor(kernel): Drop v1 signature verification (#3628)",
+     "display_title": "manager: use spring animation for pager navigation (#3492)",
      "event": "push",
      "status": "completed",
      "conclusion": "failure",
-     "created_at": "2026-08-11T03:26:18Z",
-     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/31455387418",
+     "created_at": "2026-08-13T03:59:59Z",
+     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/31665610894",
      "path": ".github/workflows/build-manager.yml"
     },
     {
-     "id": 31455387200,
-     "run_number": 4,
-     "name": "Rustfmt check",
-     "display_title": "refactor(kernel): Drop v1 signature verification (#3628)",
+     "id": 31665610324,
+     "run_number": 2,
+     "name": "Deploy Website",
+     "display_title": "manager: use spring animation for pager navigation (#3492)",
      "event": "push",
      "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-11T03:26:18Z",
-     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/31455387200",
-     "path": ".github/workflows/rustfmt.yml"
+     "conclusion": "failure",
+     "created_at": "2026-08-13T03:59:59Z",
+     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/31665610324",
+     "path": ".github/workflows/deploy-website.yml"
     }
    ],
    "note": ""
@@ -267,6 +267,18 @@
    "html_url": "https://github.com/SunsetRNE/Operit",
    "runs": [
     {
+     "id": 31665611437,
+     "run_number": 8,
+     "name": "Android Build",
+     "display_title": "Merge pull request #939 from AAswordman/fix/snapshot-package-prefix",
+     "event": "push",
+     "status": "completed",
+     "conclusion": "failure",
+     "created_at": "2026-08-13T04:00:00Z",
+     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31665611437",
+     "path": ".github/workflows/android-build.yml"
+    },
+    {
      "id": 31561596897,
      "run_number": 7,
      "name": "Android Build",
@@ -276,18 +288,6 @@
      "conclusion": "success",
      "created_at": "2026-08-12T03:55:31Z",
      "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31561596897",
-     "path": ".github/workflows/android-build.yml"
-    },
-    {
-     "id": 31353385602,
-     "run_number": 6,
-     "name": "Android Build",
-     "display_title": "Merge pull request #913 from AAswordman/fix/copy-preview-sheet-rebound",
-     "event": "push",
-     "status": "completed",
-     "conclusion": "failure",
-     "created_at": "2026-08-10T03:43:26Z",
-     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31353385602",
      "path": ".github/workflows/android-build.yml"
     }
    ],
@@ -571,6 +571,18 @@
    "html_url": "https://github.com/SunsetRNE/device_faker",
    "runs": [
     {
+     "id": 31665608945,
+     "run_number": 5,
+     "name": "Build Device Faker Module",
+     "display_title": "refactor(module): customize.sh 默认策略改为保留已有配置",
+     "event": "push",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-13T03:59:57Z",
+     "html_url": "https://github.com/SunsetRNE/device_faker/actions/runs/31665608945",
+     "path": ".github/workflows/build.yml"
+    },
+    {
      "id": 31292348869,
      "run_number": 4,
      "name": "Build Device Faker Module",
@@ -580,18 +592,6 @@
      "conclusion": "success",
      "created_at": "2026-08-09T03:24:10Z",
      "html_url": "https://github.com/SunsetRNE/device_faker/actions/runs/31292348869",
-     "path": ".github/workflows/build.yml"
-    },
-    {
-     "id": 30755260681,
-     "run_number": 3,
-     "name": "Build Device Faker Module",
-     "display_title": "fix(webui): 修复 force_denylist_unmount 开关改回默认后键值残留",
-     "event": "push",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-02T15:50:34Z",
-     "html_url": "https://github.com/SunsetRNE/device_faker/actions/runs/30755260681",
      "path": ".github/workflows/build.yml"
     }
    ],
@@ -603,28 +603,28 @@
    "html_url": "https://github.com/SunsetRNE/headroom",
    "runs": [
     {
-     "id": 31616100174,
-     "run_number": 6,
-     "name": "Stale Triage",
-     "display_title": "Stale Triage",
-     "event": "schedule",
+     "id": 31665610211,
+     "run_number": 10,
+     "name": "Release Please",
+     "display_title": "chore: release main (#2792)",
+     "event": "push",
      "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-12T16:08:40Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31616100174",
-     "path": ".github/workflows/stale.yml"
+     "conclusion": "failure",
+     "created_at": "2026-08-13T03:59:59Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31665610211",
+     "path": ".github/workflows/release-please.yml"
     },
     {
-     "id": 31612205329,
-     "run_number": 6,
-     "name": "PR Governance",
-     "display_title": "PR Governance",
-     "event": "schedule",
+     "id": 31665609854,
+     "run_number": 5,
+     "name": "OpenCode Plugin",
+     "display_title": "chore: release main (#2792)",
+     "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-12T15:25:20Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31612205329",
-     "path": ".github/workflows/pr-health.yml"
+     "created_at": "2026-08-13T03:59:58Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31665609854",
+     "path": ".github/workflows/opencode-plugin.yml"
     }
    ],
    "note": ""
@@ -635,27 +635,27 @@
    "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp",
    "runs": [
     {
-     "id": 31561596417,
-     "run_number": 9,
+     "id": 31665609820,
+     "run_number": 10,
      "name": "Replay",
-     "display_title": "Merge pull request #433 from lilubot/fix/nextjs-src-app-layout",
+     "display_title": "Merge pull request #457 from jgravelle/fix/441-442-ranking-ledger-wri…",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-12T03:55:31Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31561596417",
+     "created_at": "2026-08-13T03:59:58Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31665609820",
      "path": ".github/workflows/replay.yml"
     },
     {
-     "id": 31561596364,
-     "run_number": 9,
+     "id": 31665609795,
+     "run_number": 10,
      "name": "Tests",
-     "display_title": "Merge pull request #433 from lilubot/fix/nextjs-src-app-layout",
+     "display_title": "Merge pull request #457 from jgravelle/fix/441-442-ranking-ledger-wri…",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-12T03:55:31Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31561596364",
+     "created_at": "2026-08-13T03:59:58Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31665609795",
      "path": ".github/workflows/test.yml"
     }
    ],
@@ -727,6 +727,18 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
+     "id": 31669177839,
+     "run_number": 210,
+     "name": "🔄 统一编译触发器（消费入队）",
+     "display_title": "🔄 统一编译触发器（消费入队）",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-13T05:06:23Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31669177839",
+     "path": ".github/workflows/compile_trigger.yml"
+    },
+    {
      "id": 31663380084,
      "run_number": 209,
      "name": "🔄 统一编译触发器（消费入队）",
@@ -736,18 +748,6 @@
      "conclusion": "success",
      "created_at": "2026-08-13T03:15:41Z",
      "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31663380084",
-     "path": ".github/workflows/compile_trigger.yml"
-    },
-    {
-     "id": 31655569479,
-     "run_number": 208,
-     "name": "🔄 统一编译触发器（消费入队）",
-     "display_title": "🔄 统一编译触发器（消费入队）",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-13T00:46:41Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31655569479",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],

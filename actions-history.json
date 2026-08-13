@@ -70,5 +70,23 @@
   "run": "🔄 统一编译触发器（消费入队）",
   "run_number": 193,
   "conclusion": "success"
+ },
+ {
+  "t": "2026-08-13T05:13:31Z",
+  "repo": "Operit",
+  "from": "ok",
+  "to": "failed",
+  "run": "Android Build",
+  "run_number": 8,
+  "conclusion": "failure"
+ },
+ {
+  "t": "2026-08-13T05:13:31Z",
+  "repo": "headroom",
+  "from": "ok",
+  "to": "failed",
+  "run": "Release Please",
+  "run_number": 10,
+  "conclusion": "failure"
  }
 ]
