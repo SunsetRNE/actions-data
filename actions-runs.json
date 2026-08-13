@@ -1,11 +1,11 @@
 {
- "updated_at": "2026-08-13T08:12:25Z",
+ "updated_at": "2026-08-13T09:35:13Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 55,
   "running": 0,
-  "failed": 6,
-  "ok": 14,
+  "failed": 5,
+  "ok": 15,
   "no_runs": 35
  },
  "repos": [
@@ -77,6 +77,18 @@
    "html_url": "https://github.com/SunsetRNE/GKI_KernelSU_SUSFS",
    "runs": [
     {
+     "id": 31685561748,
+     "run_number": 48,
+     "name": "Update Data & Deploy Pages",
+     "display_title": "Update Data & Deploy Pages",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-13T09:12:52Z",
+     "html_url": "https://github.com/SunsetRNE/GKI_KernelSU_SUSFS/actions/runs/31685561748",
+     "path": ".github/workflows/update-pages.yml"
+    },
+    {
      "id": 31659070137,
      "run_number": 46,
      "name": "Auto Trigger on SukiSU Update",
@@ -87,18 +99,6 @@
      "created_at": "2026-08-13T01:52:26Z",
      "html_url": "https://github.com/SunsetRNE/GKI_KernelSU_SUSFS/actions/runs/31659070137",
      "path": ".github/workflows/Auto_Trigger.yml"
-    },
-    {
-     "id": 31374318899,
-     "run_number": 47,
-     "name": "Update Data & Deploy Pages",
-     "display_title": "Update Data & Deploy Pages",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-10T09:22:56Z",
-     "html_url": "https://github.com/SunsetRNE/GKI_KernelSU_SUSFS/actions/runs/31374318899",
-     "path": ".github/workflows/update-pages.yml"
     }
    ],
    "note": ""
@@ -313,6 +313,18 @@
    "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI",
    "runs": [
     {
+     "id": 31685910491,
+     "run_number": 433,
+     "name": "Sync ReSukiSU CI Builds",
+     "display_title": "Sync ReSukiSU CI Builds",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-13T09:17:30Z",
+     "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI/actions/runs/31685910491",
+     "path": ".github/workflows/CI.yml"
+    },
+    {
      "id": 31660808688,
      "run_number": 432,
      "name": "Sync ReSukiSU CI Builds",
@@ -322,18 +334,6 @@
      "conclusion": "success",
      "created_at": "2026-08-13T02:26:03Z",
      "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI/actions/runs/31660808688",
-     "path": ".github/workflows/CI.yml"
-    },
-    {
-     "id": 31620532097,
-     "run_number": 431,
-     "name": "Sync ReSukiSU CI Builds",
-     "display_title": "Sync ReSukiSU CI Builds",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-12T17:01:24Z",
-     "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI/actions/runs/31620532097",
      "path": ".github/workflows/CI.yml"
     }
    ],
@@ -603,6 +603,18 @@
    "html_url": "https://github.com/SunsetRNE/headroom",
    "runs": [
     {
+     "id": 31683468964,
+     "run_number": 17,
+     "name": "rust",
+     "display_title": "rust",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-13T08:45:17Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31683468964",
+     "path": ".github/workflows/rust.yml"
+    },
+    {
      "id": 31665610211,
      "run_number": 10,
      "name": "Release Please",
@@ -613,18 +625,6 @@
      "created_at": "2026-08-13T03:59:59Z",
      "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31665610211",
      "path": ".github/workflows/release-please.yml"
-    },
-    {
-     "id": 31665609854,
-     "run_number": 5,
-     "name": "OpenCode Plugin",
-     "display_title": "chore: release main (#2792)",
-     "event": "push",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-13T03:59:58Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31665609854",
-     "path": ".github/workflows/opencode-plugin.yml"
     }
    ],
    "note": ""
@@ -727,6 +727,18 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
+     "id": 31685330985,
+     "run_number": 213,
+     "name": "🔄 统一编译触发器（消费入队）",
+     "display_title": "🔄 统一编译触发器（消费入队）",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-13T09:09:50Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31685330985",
+     "path": ".github/workflows/compile_trigger.yml"
+    },
+    {
      "id": 31680056660,
      "run_number": 212,
      "name": "🔄 统一编译触发器（消费入队）",
@@ -736,18 +748,6 @@
      "conclusion": "success",
      "created_at": "2026-08-13T07:59:00Z",
      "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31680056660",
-     "path": ".github/workflows/compile_trigger.yml"
-    },
-    {
-     "id": 31673734166,
-     "run_number": 211,
-     "name": "🔄 统一编译触发器（消费入队）",
-     "display_title": "🔄 统一编译触发器（消费入队）",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-13T06:24:49Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31673734166",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],

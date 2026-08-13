@@ -88,5 +88,14 @@
   "run": "Release Please",
   "run_number": 10,
   "conclusion": "failure"
+ },
+ {
+  "t": "2026-08-13T09:35:13Z",
+  "repo": "headroom",
+  "from": "failed",
+  "to": "ok",
+  "run": "rust",
+  "run_number": 17,
+  "conclusion": "success"
  }
 ]
