@@ -106,5 +106,14 @@
   "run": "Docker",
   "run_number": 11,
   "conclusion": "failure"
+ },
+ {
+  "t": "2026-08-14T09:17:52Z",
+  "repo": "headroom",
+  "from": "failed",
+  "to": "ok",
+  "run": "rust",
+  "run_number": 19,
+  "conclusion": "success"
  }
 ]

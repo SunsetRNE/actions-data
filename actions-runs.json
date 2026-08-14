@@ -1,11 +1,11 @@
 {
- "updated_at": "2026-08-14T08:03:36Z",
+ "updated_at": "2026-08-14T09:17:52Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 55,
   "running": 0,
-  "failed": 6,
-  "ok": 14,
+  "failed": 5,
+  "ok": 15,
   "no_runs": 35
  },
  "repos": [
@@ -313,6 +313,18 @@
    "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI",
    "runs": [
     {
+     "id": 31787069730,
+     "run_number": 436,
+     "name": "Sync ReSukiSU CI Builds",
+     "display_title": "Sync ReSukiSU CI Builds",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-14T09:11:59Z",
+     "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI/actions/runs/31787069730",
+     "path": ".github/workflows/CI.yml"
+    },
+    {
      "id": 31763623692,
      "run_number": 435,
      "name": "Sync ReSukiSU CI Builds",
@@ -322,18 +334,6 @@
      "conclusion": "success",
      "created_at": "2026-08-14T02:24:22Z",
      "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI/actions/runs/31763623692",
-     "path": ".github/workflows/CI.yml"
-    },
-    {
-     "id": 31723551029,
-     "run_number": 434,
-     "name": "Sync ReSukiSU CI Builds",
-     "display_title": "Sync ReSukiSU CI Builds",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-13T17:00:36Z",
-     "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI/actions/runs/31723551029",
      "path": ".github/workflows/CI.yml"
     }
    ],
@@ -603,6 +603,18 @@
    "html_url": "https://github.com/SunsetRNE/headroom",
    "runs": [
     {
+     "id": 31784759875,
+     "run_number": 19,
+     "name": "rust",
+     "display_title": "rust",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-14T08:38:50Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31784759875",
+     "path": ".github/workflows/rust.yml"
+    },
+    {
      "id": 31768275909,
      "run_number": 11,
      "name": "Docker",
@@ -613,18 +625,6 @@
      "created_at": "2026-08-14T03:55:43Z",
      "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31768275909",
      "path": ".github/workflows/docker.yml"
-    },
-    {
-     "id": 31768275894,
-     "run_number": 11,
-     "name": "Init E2E",
-     "display_title": "ci: allow generated dependency commit bodies (#3012)",
-     "event": "push",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-14T03:55:43Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31768275894",
-     "path": ".github/workflows/init-e2e.yml"
     }
    ],
    "note": ""
@@ -727,6 +727,18 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
+     "id": 31785491837,
+     "run_number": 235,
+     "name": "🔄 统一编译触发器（消费入队）",
+     "display_title": "🔄 统一编译触发器（消费入队）",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-14T08:49:18Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31785491837",
+     "path": ".github/workflows/compile_trigger.yml"
+    },
+    {
      "id": 31781361198,
      "run_number": 234,
      "name": "🔄 统一编译触发器（消费入队）",
@@ -736,18 +748,6 @@
      "conclusion": "success",
      "created_at": "2026-08-14T07:48:23Z",
      "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31781361198",
-     "path": ".github/workflows/compile_trigger.yml"
-    },
-    {
-     "id": 31775502929,
-     "run_number": 233,
-     "name": "🔄 统一编译触发器（消费入队）",
-     "display_title": "🔄 统一编译触发器（消费入队）",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-14T06:12:32Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31775502929",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],
