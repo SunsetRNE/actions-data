@@ -1,11 +1,11 @@
 {
- "updated_at": "2026-08-14T03:15:10Z",
+ "updated_at": "2026-08-14T05:09:44Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 55,
   "running": 0,
-  "failed": 5,
-  "ok": 15,
+  "failed": 6,
+  "ok": 14,
   "no_runs": 35
  },
  "repos": [
@@ -267,6 +267,18 @@
    "html_url": "https://github.com/SunsetRNE/Operit",
    "runs": [
     {
+     "id": 31768277272,
+     "run_number": 9,
+     "name": "Android Build",
+     "display_title": "Merge pull request #957 from AAswordman/feat/deepseek-harness-runtime",
+     "event": "push",
+     "status": "completed",
+     "conclusion": "failure",
+     "created_at": "2026-08-14T03:55:45Z",
+     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31768277272",
+     "path": ".github/workflows/android-build.yml"
+    },
+    {
      "id": 31665611437,
      "run_number": 8,
      "name": "Android Build",
@@ -276,18 +288,6 @@
      "conclusion": "failure",
      "created_at": "2026-08-13T04:00:00Z",
      "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31665611437",
-     "path": ".github/workflows/android-build.yml"
-    },
-    {
-     "id": 31561596897,
-     "run_number": 7,
-     "name": "Android Build",
-     "display_title": "Merge pull request #926 from AAswordman/fix/jvm-json-test-runtime",
-     "event": "push",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-12T03:55:31Z",
-     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31561596897",
      "path": ".github/workflows/android-build.yml"
     }
    ],
@@ -603,28 +603,28 @@
    "html_url": "https://github.com/SunsetRNE/headroom",
    "runs": [
     {
-     "id": 31719160251,
-     "run_number": 7,
-     "name": "Stale Triage",
-     "display_title": "Stale Triage",
-     "event": "schedule",
+     "id": 31768275909,
+     "run_number": 11,
+     "name": "Docker",
+     "display_title": "ci: allow generated dependency commit bodies (#3012)",
+     "event": "push",
      "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-13T16:08:36Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31719160251",
-     "path": ".github/workflows/stale.yml"
+     "conclusion": "failure",
+     "created_at": "2026-08-14T03:55:43Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31768275909",
+     "path": ".github/workflows/docker.yml"
     },
     {
-     "id": 31715452973,
-     "run_number": 7,
-     "name": "PR Governance",
-     "display_title": "PR Governance",
-     "event": "schedule",
+     "id": 31768275894,
+     "run_number": 11,
+     "name": "Init E2E",
+     "display_title": "ci: allow generated dependency commit bodies (#3012)",
+     "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-13T15:26:57Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31715452973",
-     "path": ".github/workflows/pr-health.yml"
+     "created_at": "2026-08-14T03:55:43Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31768275894",
+     "path": ".github/workflows/init-e2e.yml"
     }
    ],
    "note": ""
@@ -635,27 +635,27 @@
    "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp",
    "runs": [
     {
-     "id": 31665609820,
-     "run_number": 10,
+     "id": 31768276101,
+     "run_number": 11,
      "name": "Replay",
-     "display_title": "Merge pull request #457 from jgravelle/fix/441-442-ranking-ledger-wri…",
+     "display_title": "release: v1.108.277 - reachability is not only the import graph, and …",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-13T03:59:58Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31665609820",
+     "created_at": "2026-08-14T03:55:44Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31768276101",
      "path": ".github/workflows/replay.yml"
     },
     {
-     "id": 31665609795,
-     "run_number": 10,
+     "id": 31768276097,
+     "run_number": 11,
      "name": "Tests",
-     "display_title": "Merge pull request #457 from jgravelle/fix/441-442-ranking-ledger-wri…",
+     "display_title": "release: v1.108.277 - reachability is not only the import graph, and …",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-13T03:59:58Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31665609795",
+     "created_at": "2026-08-14T03:55:44Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31768276097",
      "path": ".github/workflows/test.yml"
     }
    ],
@@ -727,6 +727,18 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
+     "id": 31771569261,
+     "run_number": 232,
+     "name": "🔄 统一编译触发器（消费入队）",
+     "display_title": "🔄 统一编译触发器（消费入队）",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-14T04:59:15Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31771569261",
+     "path": ".github/workflows/compile_trigger.yml"
+    },
+    {
      "id": 31766018289,
      "run_number": 231,
      "name": "🔄 统一编译触发器（消费入队）",
@@ -736,18 +748,6 @@
      "conclusion": "success",
      "created_at": "2026-08-14T03:11:00Z",
      "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31766018289",
-     "path": ".github/workflows/compile_trigger.yml"
-    },
-    {
-     "id": 31758208177,
-     "run_number": 230,
-     "name": "🔄 统一编译触发器（消费入队）",
-     "display_title": "🔄 统一编译触发器（消费入队）",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-14T00:41:25Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31758208177",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],
