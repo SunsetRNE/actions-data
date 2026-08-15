@@ -1,11 +1,11 @@
 {
- "updated_at": "2026-08-15T02:27:55Z",
+ "updated_at": "2026-08-15T03:19:45Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 55,
   "running": 0,
-  "failed": 5,
-  "ok": 15,
+  "failed": 4,
+  "ok": 16,
   "no_runs": 35
  },
  "repos": [
@@ -267,27 +267,27 @@
    "html_url": "https://github.com/SunsetRNE/Operit",
    "runs": [
     {
-     "id": 31768277272,
-     "run_number": 9,
-     "name": "Android Build",
-     "display_title": "Merge pull request #957 from AAswordman/feat/deepseek-harness-runtime",
+     "id": 31859935791,
+     "run_number": 1,
+     "name": "Android Tests",
+     "display_title": "ci: split Android build and JVM checks (#970)",
      "event": "push",
      "status": "completed",
-     "conclusion": "failure",
-     "created_at": "2026-08-14T03:55:45Z",
-     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31768277272",
-     "path": ".github/workflows/android-build.yml"
+     "conclusion": "success",
+     "created_at": "2026-08-15T02:43:35Z",
+     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31859935791",
+     "path": ".github/workflows/android-tests.yml"
     },
     {
-     "id": 31665611437,
-     "run_number": 8,
+     "id": 31859935768,
+     "run_number": 10,
      "name": "Android Build",
-     "display_title": "Merge pull request #939 from AAswordman/fix/snapshot-package-prefix",
+     "display_title": "ci: split Android build and JVM checks (#970)",
      "event": "push",
      "status": "completed",
-     "conclusion": "failure",
-     "created_at": "2026-08-13T04:00:00Z",
-     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31665611437",
+     "conclusion": "success",
+     "created_at": "2026-08-15T02:43:35Z",
+     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31859935768",
      "path": ".github/workflows/android-build.yml"
     }
    ],
@@ -345,27 +345,27 @@
    "html_url": "https://github.com/SunsetRNE/SukiSU-Ultra",
    "runs": [
     {
-     "id": 31855709882,
-     "run_number": 11,
-     "name": "Crowdin Action",
-     "display_title": "Crowdin Action",
-     "event": "schedule",
+     "id": 31859936745,
+     "run_number": 5,
+     "name": "Build Manager",
+     "display_title": "Spoofed manager e545222 (#929)",
+     "event": "push",
      "status": "completed",
      "conclusion": "failure",
-     "created_at": "2026-08-15T01:08:57Z",
-     "html_url": "https://github.com/SunsetRNE/SukiSU-Ultra/actions/runs/31855709882",
-     "path": ".github/workflows/crowdin.yml"
+     "created_at": "2026-08-15T02:43:37Z",
+     "html_url": "https://github.com/SunsetRNE/SukiSU-Ultra/actions/runs/31859936745",
+     "path": ".github/workflows/build-manager.yml"
     },
     {
-     "id": 31761862179,
-     "run_number": 10,
+     "id": 31859936660,
+     "run_number": 12,
      "name": "Crowdin Action",
-     "display_title": "Crowdin Action",
-     "event": "schedule",
+     "display_title": "Spoofed manager e545222 (#929)",
+     "event": "push",
      "status": "completed",
      "conclusion": "failure",
-     "created_at": "2026-08-14T01:50:28Z",
-     "html_url": "https://github.com/SunsetRNE/SukiSU-Ultra/actions/runs/31761862179",
+     "created_at": "2026-08-15T02:43:37Z",
+     "html_url": "https://github.com/SunsetRNE/SukiSU-Ultra/actions/runs/31859936660",
      "path": ".github/workflows/crowdin.yml"
     }
    ],
@@ -603,28 +603,28 @@
    "html_url": "https://github.com/SunsetRNE/headroom",
    "runs": [
     {
-     "id": 31817667408,
-     "run_number": 8,
-     "name": "Stale Triage",
-     "display_title": "Stale Triage",
-     "event": "schedule",
+     "id": 31859934526,
+     "run_number": 12,
+     "name": "Docker",
+     "display_title": "deps: bump sha2 from 0.10.9 to 0.11.0 (#2288)",
+     "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-14T16:05:26Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31817667408",
-     "path": ".github/workflows/stale.yml"
+     "created_at": "2026-08-15T02:43:33Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31859934526",
+     "path": ".github/workflows/docker.yml"
     },
     {
-     "id": 31813244516,
-     "run_number": 8,
-     "name": "PR Governance",
-     "display_title": "PR Governance",
-     "event": "schedule",
+     "id": 31859934517,
+     "run_number": 12,
+     "name": "Install Native E2E",
+     "display_title": "deps: bump sha2 from 0.10.9 to 0.11.0 (#2288)",
+     "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-14T15:11:23Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31813244516",
-     "path": ".github/workflows/pr-health.yml"
+     "created_at": "2026-08-15T02:43:33Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31859934517",
+     "path": ".github/workflows/install-native-e2e.yml"
     }
    ],
    "note": ""
@@ -635,28 +635,28 @@
    "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp",
    "runs": [
     {
-     "id": 31768276101,
-     "run_number": 11,
-     "name": "Replay",
-     "display_title": "release: v1.108.277 - reachability is not only the import graph, and …",
+     "id": 31859934716,
+     "run_number": 12,
+     "name": "Tests",
+     "display_title": "docs: record #473/#465 (perf-db cache keyed on the resolved path)",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-14T03:55:44Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31768276101",
-     "path": ".github/workflows/replay.yml"
+     "created_at": "2026-08-15T02:43:34Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31859934716",
+     "path": ".github/workflows/test.yml"
     },
     {
-     "id": 31768276097,
-     "run_number": 11,
-     "name": "Tests",
-     "display_title": "release: v1.108.277 - reachability is not only the import graph, and …",
+     "id": 31859934713,
+     "run_number": 12,
+     "name": "Replay",
+     "display_title": "docs: record #473/#465 (perf-db cache keyed on the resolved path)",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-14T03:55:44Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31768276097",
-     "path": ".github/workflows/test.yml"
+     "created_at": "2026-08-15T02:43:34Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31859934713",
+     "path": ".github/workflows/replay.yml"
     }
    ],
    "note": ""
@@ -695,28 +695,28 @@
    "html_url": "https://github.com/SunsetRNE/open-interpreter",
    "runs": [
     {
-     "id": 31292349635,
-     "run_number": 2,
-     "name": "public-ci",
-     "display_title": "Fix update prompt after upstream helper removal (#1866)",
+     "id": 31859935949,
+     "run_number": 1,
+     "name": "Sync website docs",
+     "display_title": "Merge pull request #1872 from openinterpreter/codex/release-0.0.38",
      "event": "push",
      "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-09T03:24:11Z",
-     "html_url": "https://github.com/SunsetRNE/open-interpreter/actions/runs/31292349635",
-     "path": ".github/workflows/public-ci.yml"
+     "conclusion": "skipped",
+     "created_at": "2026-08-15T02:43:36Z",
+     "html_url": "https://github.com/SunsetRNE/open-interpreter/actions/runs/31859935949",
+     "path": ".github/workflows/website-docs-sync.yml"
     },
     {
-     "id": 31292349625,
-     "run_number": 2,
-     "name": "cargo-ci",
-     "display_title": "Fix update prompt after upstream helper removal (#1866)",
+     "id": 31859935905,
+     "run_number": 3,
+     "name": "public-ci",
+     "display_title": "Merge pull request #1872 from openinterpreter/codex/release-0.0.38",
      "event": "push",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-09T03:24:11Z",
-     "html_url": "https://github.com/SunsetRNE/open-interpreter/actions/runs/31292349625",
-     "path": ".github/workflows/cargo-ci.yml"
+     "status": "in_progress",
+     "conclusion": "",
+     "created_at": "2026-08-15T02:43:36Z",
+     "html_url": "https://github.com/SunsetRNE/open-interpreter/actions/runs/31859935905",
+     "path": ".github/workflows/public-ci.yml"
     }
    ],
    "note": ""
@@ -727,6 +727,18 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
+     "id": 31860962751,
+     "run_number": 262,
+     "name": "🔄 统一编译触发器（消费入队）",
+     "display_title": "🔄 统一编译触发器（消费入队）",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-15T03:06:52Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31860962751",
+     "path": ".github/workflows/compile_trigger.yml"
+    },
+    {
      "id": 31858804109,
      "run_number": 261,
      "name": "🔄 统一编译触发器（消费入队）",
@@ -736,18 +748,6 @@
      "conclusion": "success",
      "created_at": "2026-08-15T02:17:32Z",
      "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31858804109",
-     "path": ".github/workflows/compile_trigger.yml"
-    },
-    {
-     "id": 31855667445,
-     "run_number": 260,
-     "name": "🔄 统一编译触发器（消费入队）",
-     "display_title": "🔄 统一编译触发器（消费入队）",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-15T01:08:01Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31855667445",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],
