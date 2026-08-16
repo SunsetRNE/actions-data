@@ -1,11 +1,11 @@
 {
- "updated_at": "2026-08-16T04:02:22Z",
+ "updated_at": "2026-08-16T04:46:45Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 55,
-  "running": 1,
+  "running": 0,
   "failed": 4,
-  "ok": 15,
+  "ok": 16,
   "no_runs": 35
  },
  "repos": [
@@ -700,8 +700,8 @@
      "name": "public-ci",
      "display_title": "Merge pull request #1873 from openinterpreter/codex/brand-open-interp…",
      "event": "push",
-     "status": "in_progress",
-     "conclusion": "",
+     "status": "completed",
+     "conclusion": "success",
      "created_at": "2026-08-16T02:52:38Z",
      "html_url": "https://github.com/SunsetRNE/open-interpreter/actions/runs/31922906122",
      "path": ".github/workflows/public-ci.yml"
@@ -727,6 +727,18 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
+     "id": 31925987282,
+     "run_number": 327,
+     "name": "🔄 统一编译触发器（消费入队）",
+     "display_title": "🔄 统一编译触发器（消费入队）",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-16T04:10:10Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31925987282",
+     "path": ".github/workflows/compile_trigger.yml"
+    },
+    {
      "id": 31924515787,
      "run_number": 326,
      "name": "🔄 统一编译触发器（消费入队）",
@@ -736,18 +748,6 @@
      "conclusion": "success",
      "created_at": "2026-08-16T03:33:03Z",
      "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31924515787",
-     "path": ".github/workflows/compile_trigger.yml"
-    },
-    {
-     "id": 31922641295,
-     "run_number": 325,
-     "name": "🔄 统一编译触发器（消费入队）",
-     "display_title": "🔄 统一编译触发器（消费入队）",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-16T02:45:40Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31922641295",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],
