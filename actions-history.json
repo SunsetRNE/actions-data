@@ -232,5 +232,14 @@
   "run": "🔄 统一编译触发器（消费入队）",
   "run_number": 373,
   "conclusion": "success"
+ },
+ {
+  "t": "2026-08-16T21:26:23Z",
+  "repo": "oppo_oplus_realme",
+  "from": "ok",
+  "to": "failed",
+  "run": "🔄 统一编译触发器（消费入队）",
+  "run_number": 374,
+  "conclusion": "failure"
  }
 ]
