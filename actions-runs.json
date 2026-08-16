@@ -1,11 +1,11 @@
 {
- "updated_at": "2026-08-16T02:07:24Z",
+ "updated_at": "2026-08-16T03:15:23Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 55,
-  "running": 0,
-  "failed": 4,
-  "ok": 16,
+  "running": 3,
+  "failed": 3,
+  "ok": 14,
   "no_runs": 35
  },
  "repos": [
@@ -116,6 +116,18 @@
    "html_url": "https://github.com/SunsetRNE/InstallerX-Revived",
    "runs": [
     {
+     "id": 31922395628,
+     "run_number": 22,
+     "name": "CodeQL",
+     "display_title": "CodeQL",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "skipped",
+     "created_at": "2026-08-16T02:39:23Z",
+     "html_url": "https://github.com/SunsetRNE/InstallerX-Revived/actions/runs/31922395628",
+     "path": ".github/workflows/codeql.yml"
+    },
+    {
      "id": 31291998690,
      "run_number": 21,
      "name": "CodeQL",
@@ -126,18 +138,6 @@
      "created_at": "2026-08-09T03:13:45Z",
      "html_url": "https://github.com/SunsetRNE/InstallerX-Revived/actions/runs/31291998690",
      "path": ".github/workflows/codeql.yml"
-    },
-    {
-     "id": 31072632763,
-     "run_number": 5,
-     "name": "Automatic Alpha Pre-Release (Latest Only)",
-     "display_title": "Merge branch 'wxxsfxyzm:main' into main",
-     "event": "push",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-06T04:56:03Z",
-     "html_url": "https://github.com/SunsetRNE/InstallerX-Revived/actions/runs/31072632763",
-     "path": ".github/workflows/auto-preview-release.yml"
     }
    ],
    "note": ""
@@ -267,28 +267,28 @@
    "html_url": "https://github.com/SunsetRNE/Operit",
    "runs": [
     {
-     "id": 31859935791,
-     "run_number": 1,
-     "name": "Android Tests",
-     "display_title": "ci: split Android build and JVM checks (#970)",
+     "id": 31922905774,
+     "run_number": 11,
+     "name": "Android Build",
+     "display_title": "Merge pull request #964 from luojiaping/fix/phone-orientation-layout",
      "event": "push",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-15T02:43:35Z",
-     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31859935791",
-     "path": ".github/workflows/android-tests.yml"
+     "status": "in_progress",
+     "conclusion": "",
+     "created_at": "2026-08-16T02:52:37Z",
+     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31922905774",
+     "path": ".github/workflows/android-build.yml"
     },
     {
-     "id": 31859935768,
-     "run_number": 10,
-     "name": "Android Build",
-     "display_title": "ci: split Android build and JVM checks (#970)",
+     "id": 31922905771,
+     "run_number": 2,
+     "name": "Android Tests",
+     "display_title": "Merge pull request #964 from luojiaping/fix/phone-orientation-layout",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-15T02:43:35Z",
-     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31859935768",
-     "path": ".github/workflows/android-build.yml"
+     "created_at": "2026-08-16T02:52:37Z",
+     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31922905771",
+     "path": ".github/workflows/android-tests.yml"
     }
    ],
    "note": ""
@@ -345,28 +345,28 @@
    "html_url": "https://github.com/SunsetRNE/SukiSU-Ultra",
    "runs": [
     {
-     "id": 31919065351,
-     "run_number": 13,
-     "name": "Crowdin Action",
-     "display_title": "Crowdin Action",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "failure",
-     "created_at": "2026-08-16T01:13:06Z",
-     "html_url": "https://github.com/SunsetRNE/SukiSU-Ultra/actions/runs/31919065351",
-     "path": ".github/workflows/crowdin.yml"
+     "id": 31922906731,
+     "run_number": 6,
+     "name": "Build Manager",
+     "display_title": "ksud：fmt&clippy",
+     "event": "push",
+     "status": "in_progress",
+     "conclusion": "",
+     "created_at": "2026-08-16T02:52:39Z",
+     "html_url": "https://github.com/SunsetRNE/SukiSU-Ultra/actions/runs/31922906731",
+     "path": ".github/workflows/build-manager.yml"
     },
     {
-     "id": 31859936745,
-     "run_number": 5,
-     "name": "Build Manager",
-     "display_title": "Spoofed manager e545222 (#929)",
+     "id": 31922906592,
+     "run_number": 14,
+     "name": "Crowdin Action",
+     "display_title": "ksud：fmt&clippy",
      "event": "push",
      "status": "completed",
      "conclusion": "failure",
-     "created_at": "2026-08-15T02:43:37Z",
-     "html_url": "https://github.com/SunsetRNE/SukiSU-Ultra/actions/runs/31859936745",
-     "path": ".github/workflows/build-manager.yml"
+     "created_at": "2026-08-16T02:52:38Z",
+     "html_url": "https://github.com/SunsetRNE/SukiSU-Ultra/actions/runs/31922906592",
+     "path": ".github/workflows/crowdin.yml"
     }
    ],
    "note": ""
@@ -603,27 +603,27 @@
    "html_url": "https://github.com/SunsetRNE/headroom",
    "runs": [
     {
-     "id": 31859934526,
-     "run_number": 12,
-     "name": "Docker",
-     "display_title": "deps: bump sha2 from 0.10.9 to 0.11.0 (#2288)",
+     "id": 31922905001,
+     "run_number": 13,
+     "name": "Wrap Native E2E",
+     "display_title": "fix(proxy): keep prefixed core tools resident (#3046)",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-15T02:43:33Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31859934526",
-     "path": ".github/workflows/docker.yml"
+     "created_at": "2026-08-16T02:52:35Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31922905001",
+     "path": ".github/workflows/wrap-native-e2e.yml"
     },
     {
-     "id": 31859934517,
-     "run_number": 12,
+     "id": 31922904988,
+     "run_number": 13,
      "name": "Install Native E2E",
-     "display_title": "deps: bump sha2 from 0.10.9 to 0.11.0 (#2288)",
+     "display_title": "fix(proxy): keep prefixed core tools resident (#3046)",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-15T02:43:33Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31859934517",
+     "created_at": "2026-08-16T02:52:35Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31922904988",
      "path": ".github/workflows/install-native-e2e.yml"
     }
    ],
@@ -635,28 +635,28 @@
    "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp",
    "runs": [
     {
-     "id": 31859934716,
-     "run_number": 12,
-     "name": "Tests",
-     "display_title": "docs: record #473/#465 (perf-db cache keyed on the resolved path)",
+     "id": 31922905512,
+     "run_number": 13,
+     "name": "Replay",
+     "display_title": "release: v1.108.281 — a declared pattern with no implementation reads…",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-15T02:43:34Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31859934716",
-     "path": ".github/workflows/test.yml"
+     "created_at": "2026-08-16T02:52:36Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31922905512",
+     "path": ".github/workflows/replay.yml"
     },
     {
-     "id": 31859934713,
-     "run_number": 12,
-     "name": "Replay",
-     "display_title": "docs: record #473/#465 (perf-db cache keyed on the resolved path)",
+     "id": 31922905472,
+     "run_number": 13,
+     "name": "Tests",
+     "display_title": "release: v1.108.281 — a declared pattern with no implementation reads…",
      "event": "push",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-15T02:43:34Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31859934713",
-     "path": ".github/workflows/replay.yml"
+     "status": "in_progress",
+     "conclusion": "",
+     "created_at": "2026-08-16T02:52:36Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31922905472",
+     "path": ".github/workflows/test.yml"
     }
    ],
    "note": ""
@@ -695,28 +695,28 @@
    "html_url": "https://github.com/SunsetRNE/open-interpreter",
    "runs": [
     {
-     "id": 31859935949,
-     "run_number": 1,
-     "name": "Sync website docs",
-     "display_title": "Merge pull request #1872 from openinterpreter/codex/release-0.0.38",
+     "id": 31922906122,
+     "run_number": 4,
+     "name": "public-ci",
+     "display_title": "Merge pull request #1873 from openinterpreter/codex/brand-open-interp…",
      "event": "push",
-     "status": "completed",
-     "conclusion": "skipped",
-     "created_at": "2026-08-15T02:43:36Z",
-     "html_url": "https://github.com/SunsetRNE/open-interpreter/actions/runs/31859935949",
-     "path": ".github/workflows/website-docs-sync.yml"
+     "status": "in_progress",
+     "conclusion": "",
+     "created_at": "2026-08-16T02:52:38Z",
+     "html_url": "https://github.com/SunsetRNE/open-interpreter/actions/runs/31922906122",
+     "path": ".github/workflows/public-ci.yml"
     },
     {
-     "id": 31859935905,
-     "run_number": 3,
-     "name": "public-ci",
-     "display_title": "Merge pull request #1872 from openinterpreter/codex/release-0.0.38",
+     "id": 31922906108,
+     "run_number": 4,
+     "name": "cargo-ci",
+     "display_title": "Merge pull request #1873 from openinterpreter/codex/brand-open-interp…",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-15T02:43:36Z",
-     "html_url": "https://github.com/SunsetRNE/open-interpreter/actions/runs/31859935905",
-     "path": ".github/workflows/public-ci.yml"
+     "created_at": "2026-08-16T02:52:38Z",
+     "html_url": "https://github.com/SunsetRNE/open-interpreter/actions/runs/31922906108",
+     "path": ".github/workflows/cargo-ci.yml"
     }
    ],
    "note": ""
@@ -727,6 +727,18 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
+     "id": 31922641295,
+     "run_number": 325,
+     "name": "🔄 统一编译触发器（消费入队）",
+     "display_title": "🔄 统一编译触发器（消费入队）",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-16T02:45:40Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31922641295",
+     "path": ".github/workflows/compile_trigger.yml"
+    },
+    {
      "id": 31919892319,
      "run_number": 324,
      "name": "🔄 统一编译触发器（消费入队）",
@@ -736,18 +748,6 @@
      "conclusion": "success",
      "created_at": "2026-08-16T01:34:49Z",
      "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31919892319",
-     "path": ".github/workflows/compile_trigger.yml"
-    },
-    {
-     "id": 31916189034,
-     "run_number": 323,
-     "name": "🔄 统一编译触发器（消费入队）",
-     "display_title": "🔄 统一编译触发器（消费入队）",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-16T00:00:54Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31916189034",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],
