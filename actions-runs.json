@@ -1,11 +1,11 @@
 {
- "updated_at": "2026-08-16T03:15:23Z",
+ "updated_at": "2026-08-16T04:02:22Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 55,
-  "running": 3,
-  "failed": 3,
-  "ok": 14,
+  "running": 1,
+  "failed": 4,
+  "ok": 15,
   "no_runs": 35
  },
  "repos": [
@@ -272,8 +272,8 @@
      "name": "Android Build",
      "display_title": "Merge pull request #964 from luojiaping/fix/phone-orientation-layout",
      "event": "push",
-     "status": "in_progress",
-     "conclusion": "",
+     "status": "completed",
+     "conclusion": "success",
      "created_at": "2026-08-16T02:52:37Z",
      "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31922905774",
      "path": ".github/workflows/android-build.yml"
@@ -350,8 +350,8 @@
      "name": "Build Manager",
      "display_title": "ksud：fmt&clippy",
      "event": "push",
-     "status": "in_progress",
-     "conclusion": "",
+     "status": "completed",
+     "conclusion": "failure",
      "created_at": "2026-08-16T02:52:39Z",
      "html_url": "https://github.com/SunsetRNE/SukiSU-Ultra/actions/runs/31922906731",
      "path": ".github/workflows/build-manager.yml"
@@ -652,8 +652,8 @@
      "name": "Tests",
      "display_title": "release: v1.108.281 — a declared pattern with no implementation reads…",
      "event": "push",
-     "status": "in_progress",
-     "conclusion": "",
+     "status": "completed",
+     "conclusion": "success",
      "created_at": "2026-08-16T02:52:36Z",
      "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31922905472",
      "path": ".github/workflows/test.yml"
@@ -727,6 +727,18 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
+     "id": 31924515787,
+     "run_number": 326,
+     "name": "🔄 统一编译触发器（消费入队）",
+     "display_title": "🔄 统一编译触发器（消费入队）",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-16T03:33:03Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31924515787",
+     "path": ".github/workflows/compile_trigger.yml"
+    },
+    {
      "id": 31922641295,
      "run_number": 325,
      "name": "🔄 统一编译触发器（消费入队）",
@@ -736,18 +748,6 @@
      "conclusion": "success",
      "created_at": "2026-08-16T02:45:40Z",
      "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31922641295",
-     "path": ".github/workflows/compile_trigger.yml"
-    },
-    {
-     "id": 31919892319,
-     "run_number": 324,
-     "name": "🔄 统一编译触发器（消费入队）",
-     "display_title": "🔄 统一编译触发器（消费入队）",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-16T01:34:49Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31919892319",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],
