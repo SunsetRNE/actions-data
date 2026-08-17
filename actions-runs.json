@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-17T07:40:18Z",
+ "updated_at": "2026-08-17T08:25:02Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 55,
@@ -603,6 +603,18 @@
    "html_url": "https://github.com/SunsetRNE/headroom",
    "runs": [
     {
+     "id": 32008435698,
+     "run_number": 23,
+     "name": "rust",
+     "display_title": "rust",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-17T08:01:55Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32008435698",
+     "path": ".github/workflows/rust.yml"
+    },
+    {
      "id": 32002613076,
      "run_number": 2,
      "name": "Evaluation Suite",
@@ -613,18 +625,6 @@
      "created_at": "2026-08-17T06:40:41Z",
      "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32002613076",
      "path": ".github/workflows/eval.yml"
-    },
-    {
-     "id": 32001619732,
-     "run_number": 16,
-     "name": "Security",
-     "display_title": "Security",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-17T06:25:40Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32001619732",
-     "path": ".github/workflows/security.yml"
     }
    ],
    "note": ""
@@ -634,6 +634,18 @@
    "category": "AI工具",
    "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp",
    "runs": [
+    {
+     "id": 32007924345,
+     "run_number": 3,
+     "name": "Benchmark",
+     "display_title": "Benchmark",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-17T07:55:10Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/32007924345",
+     "path": ".github/workflows/benchmark.yml"
+    },
     {
      "id": 31989309025,
      "run_number": 14,
@@ -645,18 +657,6 @@
      "created_at": "2026-08-17T02:52:03Z",
      "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31989309025",
      "path": ".github/workflows/replay.yml"
-    },
-    {
-     "id": 31989308941,
-     "run_number": 14,
-     "name": "Tests",
-     "display_title": "Merge pull request #484 from jgravelle/test/retire-src-prefixed-imports",
-     "event": "push",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-17T02:52:03Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31989308941",
-     "path": ".github/workflows/test.yml"
     }
    ],
    "note": ""
@@ -727,6 +727,18 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
+     "id": 32008757163,
+     "run_number": 394,
+     "name": "🔄 统一编译触发器（消费入队）",
+     "display_title": "🔄 统一编译触发器（消费入队）",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-17T08:06:06Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32008757163",
+     "path": ".github/workflows/compile_trigger.yml"
+    },
+    {
      "id": 32005930071,
      "run_number": 393,
      "name": "🔄 统一编译触发器（消费入队）",
@@ -736,18 +748,6 @@
      "conclusion": "success",
      "created_at": "2026-08-17T07:27:55Z",
      "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32005930071",
-     "path": ".github/workflows/compile_trigger.yml"
-    },
-    {
-     "id": 32001486630,
-     "run_number": 392,
-     "name": "🔄 统一编译触发器（消费入队）",
-     "display_title": "🔄 统一编译触发器（消费入队）",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-17T06:23:49Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32001486630",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],
