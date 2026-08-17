@@ -304,5 +304,14 @@
   "run": "🔄 统一编译触发器（消费入队）",
   "run_number": 398,
   "conclusion": "success"
+ },
+ {
+  "t": "2026-08-17T15:44:28Z",
+  "repo": "headroom",
+  "from": "ok",
+  "to": "failed",
+  "run": "Stale Triage",
+  "run_number": 9,
+  "conclusion": "failure"
  }
 ]
