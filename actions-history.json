@@ -286,5 +286,23 @@
   "run": "Evaluation Suite",
   "run_number": 2,
   "conclusion": "success"
+ },
+ {
+  "t": "2026-08-17T10:40:46Z",
+  "repo": "oppo_oplus_realme",
+  "from": "ok",
+  "to": "running",
+  "run": "🔄 统一编译触发器（消费入队）",
+  "run_number": 398,
+  "conclusion": ""
+ },
+ {
+  "t": "2026-08-17T10:41:48Z",
+  "repo": "oppo_oplus_realme",
+  "from": "running",
+  "to": "ok",
+  "run": "🔄 统一编译触发器（消费入队）",
+  "run_number": 398,
+  "conclusion": "success"
  }
 ]
