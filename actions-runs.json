@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-17T02:50:39Z",
+ "updated_at": "2026-08-17T03:42:02Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 55,
@@ -214,28 +214,28 @@
    "html_url": "https://github.com/SunsetRNE/KernelSU",
    "runs": [
     {
-     "id": 31665610894,
-     "run_number": 5,
+     "id": 31989309314,
+     "run_number": 6,
      "name": "Build Manager",
-     "display_title": "manager: use spring animation for pager navigation (#3492)",
+     "display_title": "manager: add soft reboot toggle in settings",
      "event": "push",
      "status": "completed",
      "conclusion": "failure",
-     "created_at": "2026-08-13T03:59:59Z",
-     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/31665610894",
+     "created_at": "2026-08-17T02:52:04Z",
+     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/31989309314",
      "path": ".github/workflows/build-manager.yml"
     },
     {
-     "id": 31665610324,
-     "run_number": 2,
-     "name": "Deploy Website",
-     "display_title": "manager: use spring animation for pager navigation (#3492)",
+     "id": 31989309075,
+     "run_number": 5,
+     "name": "Clippy check",
+     "display_title": "manager: add soft reboot toggle in settings",
      "event": "push",
      "status": "completed",
-     "conclusion": "failure",
-     "created_at": "2026-08-13T03:59:59Z",
-     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/31665610324",
-     "path": ".github/workflows/deploy-website.yml"
+     "conclusion": "success",
+     "created_at": "2026-08-17T02:52:03Z",
+     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/31989309075",
+     "path": ".github/workflows/clippy.yml"
     }
    ],
    "note": ""
@@ -267,27 +267,27 @@
    "html_url": "https://github.com/SunsetRNE/Operit",
    "runs": [
     {
-     "id": 31922905774,
-     "run_number": 11,
+     "id": 31989309874,
+     "run_number": 12,
      "name": "Android Build",
-     "display_title": "Merge pull request #964 from luojiaping/fix/phone-orientation-layout",
+     "display_title": "Merge pull request #983 from AAswordman/feat/market-contributor-conte…",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-16T02:52:37Z",
-     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31922905774",
+     "created_at": "2026-08-17T02:52:04Z",
+     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31989309874",
      "path": ".github/workflows/android-build.yml"
     },
     {
-     "id": 31922905771,
-     "run_number": 2,
+     "id": 31989309855,
+     "run_number": 3,
      "name": "Android Tests",
-     "display_title": "Merge pull request #964 from luojiaping/fix/phone-orientation-layout",
+     "display_title": "Merge pull request #983 from AAswordman/feat/market-contributor-conte…",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-16T02:52:37Z",
-     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31922905771",
+     "created_at": "2026-08-17T02:52:04Z",
+     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31989309855",
      "path": ".github/workflows/android-tests.yml"
     }
    ],
@@ -603,28 +603,28 @@
    "html_url": "https://github.com/SunsetRNE/headroom",
    "runs": [
     {
-     "id": 31922905001,
-     "run_number": 13,
-     "name": "Wrap Native E2E",
-     "display_title": "fix(proxy): keep prefixed core tools resident (#3046)",
+     "id": 31989309034,
+     "run_number": 14,
+     "name": "Merge Conflicts",
+     "display_title": "ci(governance): require a Conventional Commit PR title (#3063)",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-16T02:52:35Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31922905001",
-     "path": ".github/workflows/wrap-native-e2e.yml"
+     "created_at": "2026-08-17T02:52:03Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31989309034",
+     "path": ".github/workflows/merge-conflicts.yml"
     },
     {
-     "id": 31922904988,
-     "run_number": 13,
-     "name": "Install Native E2E",
-     "display_title": "fix(proxy): keep prefixed core tools resident (#3046)",
+     "id": 31989309011,
+     "run_number": 14,
+     "name": "Wrap Native E2E",
+     "display_title": "ci(governance): require a Conventional Commit PR title (#3063)",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-16T02:52:35Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31922904988",
-     "path": ".github/workflows/install-native-e2e.yml"
+     "created_at": "2026-08-17T02:52:03Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/31989309011",
+     "path": ".github/workflows/wrap-native-e2e.yml"
     }
    ],
    "note": ""
@@ -635,27 +635,27 @@
    "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp",
    "runs": [
     {
-     "id": 31922905512,
-     "run_number": 13,
+     "id": 31989309025,
+     "run_number": 14,
      "name": "Replay",
-     "display_title": "release: v1.108.281 — a declared pattern with no implementation reads…",
+     "display_title": "Merge pull request #484 from jgravelle/test/retire-src-prefixed-imports",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-16T02:52:36Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31922905512",
+     "created_at": "2026-08-17T02:52:03Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31989309025",
      "path": ".github/workflows/replay.yml"
     },
     {
-     "id": 31922905472,
-     "run_number": 13,
+     "id": 31989308941,
+     "run_number": 14,
      "name": "Tests",
-     "display_title": "release: v1.108.281 — a declared pattern with no implementation reads…",
+     "display_title": "Merge pull request #484 from jgravelle/test/retire-src-prefixed-imports",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-16T02:52:36Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31922905472",
+     "created_at": "2026-08-17T02:52:03Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31989308941",
      "path": ".github/workflows/test.yml"
     }
    ],
@@ -727,6 +727,18 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
+     "id": 31990125526,
+     "run_number": 387,
+     "name": "🔄 统一编译触发器（消费入队）",
+     "display_title": "🔄 统一编译触发器（消费入队）",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-17T03:07:34Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31990125526",
+     "path": ".github/workflows/compile_trigger.yml"
+    },
+    {
      "id": 31986791469,
      "run_number": 386,
      "name": "🔄 统一编译触发器（消费入队）",
@@ -736,18 +748,6 @@
      "conclusion": "success",
      "created_at": "2026-08-17T02:03:21Z",
      "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31986791469",
-     "path": ".github/workflows/compile_trigger.yml"
-    },
-    {
-     "id": 31982182090,
-     "run_number": 385,
-     "name": "🔄 统一编译触发器（消费入队）",
-     "display_title": "🔄 统一编译触发器（消费入队）",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-17T00:29:38Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31982182090",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],
