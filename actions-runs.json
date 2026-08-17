@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-17T08:25:02Z",
+ "updated_at": "2026-08-17T09:09:54Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 55,
@@ -313,6 +313,18 @@
    "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI",
    "runs": [
     {
+     "id": 32012240004,
+     "run_number": 445,
+     "name": "Sync ReSukiSU CI Builds",
+     "display_title": "Sync ReSukiSU CI Builds",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-17T08:50:09Z",
+     "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI/actions/runs/32012240004",
+     "path": ".github/workflows/CI.yml"
+    },
+    {
      "id": 31985655287,
      "run_number": 444,
      "name": "Sync ReSukiSU CI Builds",
@@ -322,18 +334,6 @@
      "conclusion": "success",
      "created_at": "2026-08-17T01:40:30Z",
      "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI/actions/runs/31985655287",
-     "path": ".github/workflows/CI.yml"
-    },
-    {
-     "id": 31958843284,
-     "run_number": 443,
-     "name": "Sync ReSukiSU CI Builds",
-     "display_title": "Sync ReSukiSU CI Builds",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-16T16:31:09Z",
-     "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI/actions/runs/31958843284",
      "path": ".github/workflows/CI.yml"
     }
    ],
@@ -727,6 +727,18 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
+     "id": 32012653053,
+     "run_number": 395,
+     "name": "🔄 统一编译触发器（消费入队）",
+     "display_title": "🔄 统一编译触发器（消费入队）",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-17T08:55:21Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32012653053",
+     "path": ".github/workflows/compile_trigger.yml"
+    },
+    {
      "id": 32008757163,
      "run_number": 394,
      "name": "🔄 统一编译触发器（消费入队）",
@@ -736,18 +748,6 @@
      "conclusion": "success",
      "created_at": "2026-08-17T08:06:06Z",
      "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32008757163",
-     "path": ".github/workflows/compile_trigger.yml"
-    },
-    {
-     "id": 32005930071,
-     "run_number": 393,
-     "name": "🔄 统一编译触发器（消费入队）",
-     "display_title": "🔄 统一编译触发器（消费入队）",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-17T07:27:55Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32005930071",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],
