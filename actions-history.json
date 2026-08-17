@@ -277,5 +277,14 @@
   "run": "Evaluation Suite",
   "run_number": 2,
   "conclusion": ""
+ },
+ {
+  "t": "2026-08-17T07:40:18Z",
+  "repo": "headroom",
+  "from": "running",
+  "to": "ok",
+  "run": "Evaluation Suite",
+  "run_number": 2,
+  "conclusion": "success"
  }
 ]
