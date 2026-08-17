@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-16T23:57:40Z",
+ "updated_at": "2026-08-17T01:49:24Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 55,
@@ -313,6 +313,18 @@
    "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI",
    "runs": [
     {
+     "id": 31985655287,
+     "run_number": 444,
+     "name": "Sync ReSukiSU CI Builds",
+     "display_title": "Sync ReSukiSU CI Builds",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-17T01:40:30Z",
+     "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI/actions/runs/31985655287",
+     "path": ".github/workflows/CI.yml"
+    },
+    {
      "id": 31958843284,
      "run_number": 443,
      "name": "Sync ReSukiSU CI Builds",
@@ -322,18 +334,6 @@
      "conclusion": "success",
      "created_at": "2026-08-16T16:31:09Z",
      "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI/actions/runs/31958843284",
-     "path": ".github/workflows/CI.yml"
-    },
-    {
-     "id": 31936843445,
-     "run_number": 442,
-     "name": "Sync ReSukiSU CI Builds",
-     "display_title": "Sync ReSukiSU CI Builds",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-16T08:35:36Z",
-     "html_url": "https://github.com/SunsetRNE/ReSukiSU_CI/actions/runs/31936843445",
      "path": ".github/workflows/CI.yml"
     }
    ],
@@ -345,6 +345,18 @@
    "html_url": "https://github.com/SunsetRNE/SukiSU-Ultra",
    "runs": [
     {
+     "id": 31984165023,
+     "run_number": 15,
+     "name": "Crowdin Action",
+     "display_title": "Crowdin Action",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "failure",
+     "created_at": "2026-08-17T01:10:24Z",
+     "html_url": "https://github.com/SunsetRNE/SukiSU-Ultra/actions/runs/31984165023",
+     "path": ".github/workflows/crowdin.yml"
+    },
+    {
      "id": 31922906731,
      "run_number": 6,
      "name": "Build Manager",
@@ -355,18 +367,6 @@
      "created_at": "2026-08-16T02:52:39Z",
      "html_url": "https://github.com/SunsetRNE/SukiSU-Ultra/actions/runs/31922906731",
      "path": ".github/workflows/build-manager.yml"
-    },
-    {
-     "id": 31922906592,
-     "run_number": 14,
-     "name": "Crowdin Action",
-     "display_title": "ksud：fmt&clippy",
-     "event": "push",
-     "status": "completed",
-     "conclusion": "failure",
-     "created_at": "2026-08-16T02:52:38Z",
-     "html_url": "https://github.com/SunsetRNE/SukiSU-Ultra/actions/runs/31922906592",
-     "path": ".github/workflows/crowdin.yml"
     }
    ],
    "note": ""
@@ -727,6 +727,18 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
+     "id": 31982182090,
+     "run_number": 385,
+     "name": "🔄 统一编译触发器（消费入队）",
+     "display_title": "🔄 统一编译触发器（消费入队）",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-17T00:29:38Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31982182090",
+     "path": ".github/workflows/compile_trigger.yml"
+    },
+    {
      "id": 31980466894,
      "run_number": 384,
      "name": "🔄 统一编译触发器（消费入队）",
@@ -736,18 +748,6 @@
      "conclusion": "success",
      "created_at": "2026-08-16T23:55:02Z",
      "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31980466894",
-     "path": ".github/workflows/compile_trigger.yml"
-    },
-    {
-     "id": 31979884013,
-     "run_number": 383,
-     "name": "🔄 统一编译触发器（消费入队）",
-     "display_title": "🔄 统一编译触发器（消费入队）",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-16T23:42:23Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/31979884013",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],
