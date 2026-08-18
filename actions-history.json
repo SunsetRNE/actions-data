@@ -340,5 +340,23 @@
   "run": "Merge Conflicts",
   "run_number": 15,
   "conclusion": "success"
+ },
+ {
+  "t": "2026-08-18T08:01:02Z",
+  "repo": "headroom",
+  "from": "ok",
+  "to": "running",
+  "run": "rust",
+  "run_number": 25,
+  "conclusion": ""
+ },
+ {
+  "t": "2026-08-18T08:04:12Z",
+  "repo": "headroom",
+  "from": "running",
+  "to": "ok",
+  "run": "rust",
+  "run_number": 25,
+  "conclusion": "success"
  }
 ]
