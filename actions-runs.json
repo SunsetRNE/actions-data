@@ -1,11 +1,11 @@
 {
- "updated_at": "2026-08-18T02:19:10Z",
+ "updated_at": "2026-08-18T03:13:12Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 55,
   "running": 0,
-  "failed": 5,
-  "ok": 15,
+  "failed": 4,
+  "ok": 16,
   "no_runs": 35
  },
  "repos": [
@@ -214,28 +214,28 @@
    "html_url": "https://github.com/SunsetRNE/KernelSU",
    "runs": [
     {
-     "id": 31989309314,
-     "run_number": 6,
+     "id": 32093116142,
+     "run_number": 7,
      "name": "Build Manager",
-     "display_title": "manager: add soft reboot toggle in settings",
+     "display_title": "manager: support patch remote image (#3644)",
      "event": "push",
      "status": "completed",
      "conclusion": "failure",
-     "created_at": "2026-08-17T02:52:04Z",
-     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/31989309314",
+     "created_at": "2026-08-18T02:47:30Z",
+     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/32093116142",
      "path": ".github/workflows/build-manager.yml"
     },
     {
-     "id": 31989309075,
-     "run_number": 5,
-     "name": "Clippy check",
-     "display_title": "manager: add soft reboot toggle in settings",
+     "id": 32093115644,
+     "run_number": 3,
+     "name": "ClangFormat check",
+     "display_title": "manager: support patch remote image (#3644)",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-17T02:52:03Z",
-     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/31989309075",
-     "path": ".github/workflows/clippy.yml"
+     "created_at": "2026-08-18T02:47:30Z",
+     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/32093115644",
+     "path": ".github/workflows/clang-format.yml"
     }
    ],
    "note": ""
@@ -603,28 +603,28 @@
    "html_url": "https://github.com/SunsetRNE/headroom",
    "runs": [
     {
-     "id": 32042921464,
-     "run_number": 9,
-     "name": "Stale Triage",
-     "display_title": "Stale Triage",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "failure",
-     "created_at": "2026-08-17T15:38:15Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32042921464",
-     "path": ".github/workflows/stale.yml"
-    },
-    {
-     "id": 32040372303,
-     "run_number": 9,
-     "name": "PR Governance",
-     "display_title": "PR Governance",
-     "event": "schedule",
+     "id": 32093115016,
+     "run_number": 15,
+     "name": "Merge Conflicts",
+     "display_title": "fix(ccr): relay a successful upstream turn when post-processing fails…",
+     "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-17T14:49:36Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32040372303",
-     "path": ".github/workflows/pr-health.yml"
+     "created_at": "2026-08-18T02:47:29Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32093115016",
+     "path": ".github/workflows/merge-conflicts.yml"
+    },
+    {
+     "id": 32093114965,
+     "run_number": 15,
+     "name": "Release Please",
+     "display_title": "fix(ccr): relay a successful upstream turn when post-processing fails…",
+     "event": "push",
+     "status": "completed",
+     "conclusion": "failure",
+     "created_at": "2026-08-18T02:47:29Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32093114965",
+     "path": ".github/workflows/release-please.yml"
     }
    ],
    "note": ""
@@ -635,27 +635,27 @@
    "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp",
    "runs": [
     {
-     "id": 32007924345,
-     "run_number": 3,
-     "name": "Benchmark",
-     "display_title": "Benchmark",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-17T07:55:10Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/32007924345",
-     "path": ".github/workflows/benchmark.yml"
-    },
-    {
-     "id": 31989309025,
-     "run_number": 14,
-     "name": "Replay",
-     "display_title": "Merge pull request #484 from jgravelle/test/retire-src-prefixed-imports",
+     "id": 32093115143,
+     "run_number": 15,
+     "name": "Tests",
+     "display_title": "Merge pull request #494 from jgravelle/fix/490-bm25-cache-readiness",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-17T02:52:03Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/31989309025",
+     "created_at": "2026-08-18T02:47:30Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/32093115143",
+     "path": ".github/workflows/test.yml"
+    },
+    {
+     "id": 32093115115,
+     "run_number": 15,
+     "name": "Replay",
+     "display_title": "Merge pull request #494 from jgravelle/fix/490-bm25-cache-readiness",
+     "event": "push",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-18T02:47:30Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/32093115115",
      "path": ".github/workflows/replay.yml"
     }
    ],
@@ -695,27 +695,27 @@
    "html_url": "https://github.com/SunsetRNE/open-interpreter",
    "runs": [
     {
-     "id": 31922906122,
-     "run_number": 4,
-     "name": "public-ci",
-     "display_title": "Merge pull request #1873 from openinterpreter/codex/brand-open-interp…",
+     "id": 32093116042,
+     "run_number": 2,
+     "name": "Sync website docs",
+     "display_title": "Prepare 0.0.39 provider and skill compatibility fixes (#1876)",
      "event": "push",
      "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-16T02:52:38Z",
-     "html_url": "https://github.com/SunsetRNE/open-interpreter/actions/runs/31922906122",
-     "path": ".github/workflows/public-ci.yml"
+     "conclusion": "skipped",
+     "created_at": "2026-08-18T02:47:30Z",
+     "html_url": "https://github.com/SunsetRNE/open-interpreter/actions/runs/32093116042",
+     "path": ".github/workflows/website-docs-sync.yml"
     },
     {
-     "id": 31922906108,
-     "run_number": 4,
+     "id": 32093116039,
+     "run_number": 5,
      "name": "cargo-ci",
-     "display_title": "Merge pull request #1873 from openinterpreter/codex/brand-open-interp…",
+     "display_title": "Prepare 0.0.39 provider and skill compatibility fixes (#1876)",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-16T02:52:38Z",
-     "html_url": "https://github.com/SunsetRNE/open-interpreter/actions/runs/31922906108",
+     "created_at": "2026-08-18T02:47:30Z",
+     "html_url": "https://github.com/SunsetRNE/open-interpreter/actions/runs/32093116039",
      "path": ".github/workflows/cargo-ci.yml"
     }
    ],
@@ -727,6 +727,18 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
+     "id": 32092616295,
+     "run_number": 433,
+     "name": "🔄 统一编译触发器（消费入队）",
+     "display_title": "🔄 统一编译触发器（消费入队）",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-18T02:39:17Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32092616295",
+     "path": ".github/workflows/compile_trigger.yml"
+    },
+    {
      "id": 32088686991,
      "run_number": 432,
      "name": "🔄 统一编译触发器（消费入队）",
@@ -736,18 +748,6 @@
      "conclusion": "success",
      "created_at": "2026-08-18T01:34:07Z",
      "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32088686991",
-     "path": ".github/workflows/compile_trigger.yml"
-    },
-    {
-     "id": 32082866551,
-     "run_number": 431,
-     "name": "🔄 统一编译触发器（消费入队）",
-     "display_title": "🔄 统一编译触发器（消费入队）",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-18T00:01:30Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32082866551",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],

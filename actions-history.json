@@ -331,5 +331,14 @@
   "run": "🔄 统一编译触发器（消费入队）",
   "run_number": 419,
   "conclusion": "success"
+ },
+ {
+  "t": "2026-08-18T03:13:12Z",
+  "repo": "headroom",
+  "from": "failed",
+  "to": "ok",
+  "run": "Merge Conflicts",
+  "run_number": 15,
+  "conclusion": "success"
  }
 ]
