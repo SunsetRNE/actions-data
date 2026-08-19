@@ -1,11 +1,11 @@
 {
- "updated_at": "2026-08-19T02:45:59Z",
+ "updated_at": "2026-08-19T03:33:55Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 56,
   "running": 0,
-  "failed": 4,
-  "ok": 16,
+  "failed": 5,
+  "ok": 15,
   "no_runs": 36
  },
  "repos": [
@@ -214,6 +214,18 @@
    "html_url": "https://github.com/SunsetRNE/KernelSU",
    "runs": [
     {
+     "id": 32209941928,
+     "run_number": 8,
+     "name": "Build Manager",
+     "display_title": "manager: update Indonesian translations (#3645)",
+     "event": "push",
+     "status": "completed",
+     "conclusion": "failure",
+     "created_at": "2026-08-19T02:49:36Z",
+     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/32209941928",
+     "path": ".github/workflows/build-manager.yml"
+    },
+    {
      "id": 32093116142,
      "run_number": 7,
      "name": "Build Manager",
@@ -224,18 +236,6 @@
      "created_at": "2026-08-18T02:47:30Z",
      "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/32093116142",
      "path": ".github/workflows/build-manager.yml"
-    },
-    {
-     "id": 32093115644,
-     "run_number": 3,
-     "name": "ClangFormat check",
-     "display_title": "manager: support patch remote image (#3644)",
-     "event": "push",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-18T02:47:30Z",
-     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/32093115644",
-     "path": ".github/workflows/clang-format.yml"
     }
    ],
    "note": ""
@@ -610,28 +610,28 @@
    "html_url": "https://github.com/SunsetRNE/headroom",
    "runs": [
     {
-     "id": 32156359427,
-     "run_number": 10,
-     "name": "Stale Triage",
-     "display_title": "Stale Triage",
-     "event": "schedule",
+     "id": 32209940784,
+     "run_number": 16,
+     "name": "Release Please",
+     "display_title": "fix(copilot): send VS Code inline completions to the host that serves…",
+     "event": "push",
      "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-18T15:45:15Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32156359427",
-     "path": ".github/workflows/stale.yml"
+     "conclusion": "failure",
+     "created_at": "2026-08-19T02:49:35Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32209940784",
+     "path": ".github/workflows/release-please.yml"
     },
     {
-     "id": 32151506238,
-     "run_number": 10,
-     "name": "PR Governance",
-     "display_title": "PR Governance",
-     "event": "schedule",
+     "id": 32209940770,
+     "run_number": 16,
+     "name": "Merge Conflicts",
+     "display_title": "fix(copilot): send VS Code inline completions to the host that serves…",
+     "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-18T14:57:23Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32151506238",
-     "path": ".github/workflows/pr-health.yml"
+     "created_at": "2026-08-19T02:49:35Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32209940770",
+     "path": ".github/workflows/merge-conflicts.yml"
     }
    ],
    "note": ""
@@ -642,27 +642,27 @@
    "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp",
    "runs": [
     {
-     "id": 32093115143,
-     "run_number": 15,
+     "id": 32209941662,
+     "run_number": 16,
      "name": "Tests",
-     "display_title": "Merge pull request #494 from jgravelle/fix/490-bm25-cache-readiness",
+     "display_title": "docs(claude): record #506-#509 and maintenance practice 9",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-18T02:47:30Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/32093115143",
+     "created_at": "2026-08-19T02:49:36Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/32209941662",
      "path": ".github/workflows/test.yml"
     },
     {
-     "id": 32093115115,
-     "run_number": 15,
+     "id": 32209941633,
+     "run_number": 16,
      "name": "Replay",
-     "display_title": "Merge pull request #494 from jgravelle/fix/490-bm25-cache-readiness",
+     "display_title": "docs(claude): record #506-#509 and maintenance practice 9",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-18T02:47:30Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/32093115115",
+     "created_at": "2026-08-19T02:49:36Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/32209941633",
      "path": ".github/workflows/replay.yml"
     }
    ],
@@ -734,6 +734,18 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
+     "id": 32211427165,
+     "run_number": 482,
+     "name": "🔄 统一编译触发器（消费入队）",
+     "display_title": "🔄 统一编译触发器（消费入队）",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-19T03:14:26Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32211427165",
+     "path": ".github/workflows/compile_trigger.yml"
+    },
+    {
      "id": 32208273798,
      "run_number": 481,
      "name": "🔄 统一编译触发器（消费入队）",
@@ -743,18 +755,6 @@
      "conclusion": "success",
      "created_at": "2026-08-19T02:21:41Z",
      "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32208273798",
-     "path": ".github/workflows/compile_trigger.yml"
-    },
-    {
-     "id": 32203782061,
-     "run_number": 480,
-     "name": "🔄 统一编译触发器（消费入队）",
-     "display_title": "🔄 统一编译触发器（消费入队）",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-19T01:07:18Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32203782061",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],

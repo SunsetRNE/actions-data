@@ -358,5 +358,14 @@
   "run": "rust",
   "run_number": 25,
   "conclusion": "success"
+ },
+ {
+  "t": "2026-08-19T03:33:55Z",
+  "repo": "headroom",
+  "from": "ok",
+  "to": "failed",
+  "run": "Release Please",
+  "run_number": 16,
+  "conclusion": "failure"
  }
 ]
