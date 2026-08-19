@@ -376,5 +376,23 @@
   "run": "rust",
   "run_number": 27,
   "conclusion": "success"
+ },
+ {
+  "t": "2026-08-19T11:44:20Z",
+  "repo": "oppo_oplus_realme",
+  "from": "ok",
+  "to": "running",
+  "run": "🔄 统一编译触发器（消费入队）",
+  "run_number": 498,
+  "conclusion": ""
+ },
+ {
+  "t": "2026-08-19T11:45:22Z",
+  "repo": "oppo_oplus_realme",
+  "from": "running",
+  "to": "ok",
+  "run": "🔄 统一编译触发器（消费入队）",
+  "run_number": 498,
+  "conclusion": "success"
  }
 ]
