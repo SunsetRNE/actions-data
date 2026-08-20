@@ -430,5 +430,23 @@
   "run": "🔄 统一编译触发器（消费入队）",
   "run_number": 543,
   "conclusion": "success"
+ },
+ {
+  "t": "2026-08-20T17:08:56Z",
+  "repo": "oppo_oplus_realme",
+  "from": "ok",
+  "to": "running",
+  "run": "🔄 统一编译触发器（消费入队）",
+  "run_number": 554,
+  "conclusion": ""
+ },
+ {
+  "t": "2026-08-20T17:09:58Z",
+  "repo": "oppo_oplus_realme",
+  "from": "running",
+  "to": "ok",
+  "run": "🔄 统一编译触发器（消费入队）",
+  "run_number": 554,
+  "conclusion": "success"
  }
 ]
