@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-20T07:52:33Z",
+ "updated_at": "2026-08-20T08:33:39Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 56,
@@ -610,6 +610,18 @@
    "html_url": "https://github.com/SunsetRNE/headroom",
    "runs": [
     {
+     "id": 32346482638,
+     "run_number": 29,
+     "name": "rust",
+     "display_title": "rust",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-20T07:58:03Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32346482638",
+     "path": ".github/workflows/rust.yml"
+    },
+    {
      "id": 32325972864,
      "run_number": 17,
      "name": "Init E2E",
@@ -620,18 +632,6 @@
      "created_at": "2026-08-20T02:48:48Z",
      "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32325972864",
      "path": ".github/workflows/init-e2e.yml"
-    },
-    {
-     "id": 32325972823,
-     "run_number": 17,
-     "name": "Wrap Native E2E",
-     "display_title": "fix(deps): clear the two Rust advisories and make cargo audit blockin…",
-     "event": "push",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-20T02:48:48Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32325972823",
-     "path": ".github/workflows/wrap-native-e2e.yml"
     }
    ],
    "note": ""
@@ -734,6 +734,18 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
+     "id": 32348250577,
+     "run_number": 538,
+     "name": "🔄 统一编译触发器（消费入队）",
+     "display_title": "🔄 统一编译触发器（消费入队）",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-20T08:19:35Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32348250577",
+     "path": ".github/workflows/compile_trigger.yml"
+    },
+    {
      "id": 32345968180,
      "run_number": 537,
      "name": "🔄 统一编译触发器（消费入队）",
@@ -743,18 +755,6 @@
      "conclusion": "success",
      "created_at": "2026-08-20T07:51:36Z",
      "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32345968180",
-     "path": ".github/workflows/compile_trigger.yml"
-    },
-    {
-     "id": 32342551489,
-     "run_number": 536,
-     "name": "🔄 统一编译触发器（消费入队）",
-     "display_title": "🔄 统一编译触发器（消费入队）",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-20T07:07:20Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32342551489",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],
