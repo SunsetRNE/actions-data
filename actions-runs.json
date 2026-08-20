@@ -1,11 +1,11 @@
 {
- "updated_at": "2026-08-20T02:32:00Z",
+ "updated_at": "2026-08-20T03:28:56Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 56,
-  "running": 0,
+  "running": 1,
   "failed": 4,
-  "ok": 16,
+  "ok": 15,
   "no_runs": 36
  },
  "repos": [
@@ -610,28 +610,28 @@
    "html_url": "https://github.com/SunsetRNE/headroom",
    "runs": [
     {
-     "id": 32271938617,
-     "run_number": 11,
-     "name": "Stale Triage",
-     "display_title": "Stale Triage",
-     "event": "schedule",
+     "id": 32325972864,
+     "run_number": 17,
+     "name": "Init E2E",
+     "display_title": "fix(deps): clear the two Rust advisories and make cargo audit blockin…",
+     "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-19T15:45:18Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32271938617",
-     "path": ".github/workflows/stale.yml"
+     "created_at": "2026-08-20T02:48:48Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32325972864",
+     "path": ".github/workflows/init-e2e.yml"
     },
     {
-     "id": 32267177587,
-     "run_number": 11,
-     "name": "PR Governance",
-     "display_title": "PR Governance",
-     "event": "schedule",
+     "id": 32325972823,
+     "run_number": 17,
+     "name": "Wrap Native E2E",
+     "display_title": "fix(deps): clear the two Rust advisories and make cargo audit blockin…",
+     "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-19T14:57:54Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32267177587",
-     "path": ".github/workflows/pr-health.yml"
+     "created_at": "2026-08-20T02:48:48Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32325972823",
+     "path": ".github/workflows/wrap-native-e2e.yml"
     }
    ],
    "note": ""
@@ -642,28 +642,28 @@
    "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp",
    "runs": [
     {
-     "id": 32209941662,
-     "run_number": 16,
-     "name": "Tests",
-     "display_title": "docs(claude): record #506-#509 and maintenance practice 9",
+     "id": 32325973888,
+     "run_number": 17,
+     "name": "Replay",
+     "display_title": "docs(claude): CLA erase-on-push is a tendency, not a remedy (3 erased…",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-19T02:49:36Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/32209941662",
-     "path": ".github/workflows/test.yml"
+     "created_at": "2026-08-20T02:48:49Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/32325973888",
+     "path": ".github/workflows/replay.yml"
     },
     {
-     "id": 32209941633,
-     "run_number": 16,
-     "name": "Replay",
-     "display_title": "docs(claude): record #506-#509 and maintenance practice 9",
+     "id": 32325973839,
+     "run_number": 17,
+     "name": "Tests",
+     "display_title": "docs(claude): CLA erase-on-push is a tendency, not a remedy (3 erased…",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-19T02:49:36Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/32209941633",
-     "path": ".github/workflows/replay.yml"
+     "created_at": "2026-08-20T02:48:49Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/32325973839",
+     "path": ".github/workflows/test.yml"
     }
    ],
    "note": ""
@@ -702,27 +702,27 @@
    "html_url": "https://github.com/SunsetRNE/open-interpreter",
    "runs": [
     {
-     "id": 32093116042,
-     "run_number": 2,
-     "name": "Sync website docs",
-     "display_title": "Prepare 0.0.39 provider and skill compatibility fixes (#1876)",
+     "id": 32325975080,
+     "run_number": 6,
+     "name": "public-ci",
+     "display_title": "Merge pull request #1882 from openinterpreter/codex/release-0.0.40",
      "event": "push",
-     "status": "completed",
-     "conclusion": "skipped",
-     "created_at": "2026-08-18T02:47:30Z",
-     "html_url": "https://github.com/SunsetRNE/open-interpreter/actions/runs/32093116042",
-     "path": ".github/workflows/website-docs-sync.yml"
+     "status": "in_progress",
+     "conclusion": "",
+     "created_at": "2026-08-20T02:48:51Z",
+     "html_url": "https://github.com/SunsetRNE/open-interpreter/actions/runs/32325975080",
+     "path": ".github/workflows/public-ci.yml"
     },
     {
-     "id": 32093116039,
-     "run_number": 5,
+     "id": 32325975038,
+     "run_number": 6,
      "name": "cargo-ci",
-     "display_title": "Prepare 0.0.39 provider and skill compatibility fixes (#1876)",
+     "display_title": "Merge pull request #1882 from openinterpreter/codex/release-0.0.40",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-18T02:47:30Z",
-     "html_url": "https://github.com/SunsetRNE/open-interpreter/actions/runs/32093116039",
+     "created_at": "2026-08-20T02:48:51Z",
+     "html_url": "https://github.com/SunsetRNE/open-interpreter/actions/runs/32325975038",
      "path": ".github/workflows/cargo-ci.yml"
     }
    ],
@@ -734,27 +734,27 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
-     "id": 32321819338,
-     "run_number": 528,
+     "id": 32328342489,
+     "run_number": 530,
      "name": "🔄 统一编译触发器（消费入队）",
      "display_title": "🔄 统一编译触发器（消费入队）",
      "event": "schedule",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-20T01:39:41Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32321819338",
+     "created_at": "2026-08-20T03:28:17Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32328342489",
      "path": ".github/workflows/compile_trigger.yml"
     },
     {
-     "id": 32315707641,
-     "run_number": 527,
+     "id": 32325550597,
+     "run_number": 529,
      "name": "🔄 统一编译触发器（消费入队）",
      "display_title": "🔄 统一编译触发器（消费入队）",
      "event": "schedule",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-20T00:02:02Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32315707641",
+     "created_at": "2026-08-20T02:41:48Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32325550597",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],

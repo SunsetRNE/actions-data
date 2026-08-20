@@ -394,5 +394,14 @@
   "run": "🔄 统一编译触发器（消费入队）",
   "run_number": 498,
   "conclusion": "success"
+ },
+ {
+  "t": "2026-08-20T03:26:49Z",
+  "repo": "open-interpreter",
+  "from": "ok",
+  "to": "running",
+  "run": "public-ci",
+  "run_number": 6,
+  "conclusion": ""
  }
 ]
