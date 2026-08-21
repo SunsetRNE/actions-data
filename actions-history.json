@@ -475,5 +475,23 @@
   "run": "Init Native E2E",
   "run_number": 18,
   "conclusion": ""
+ },
+ {
+  "t": "2026-08-21T03:57:32Z",
+  "repo": "KernelSU",
+  "from": "running",
+  "to": "failed",
+  "run": "Build Manager",
+  "run_number": 9,
+  "conclusion": "failure"
+ },
+ {
+  "t": "2026-08-21T03:57:32Z",
+  "repo": "headroom",
+  "from": "running",
+  "to": "ok",
+  "run": "Init Native E2E",
+  "run_number": 18,
+  "conclusion": "success"
  }
 ]

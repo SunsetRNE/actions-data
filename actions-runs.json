@@ -1,11 +1,11 @@
 {
- "updated_at": "2026-08-21T03:03:46Z",
+ "updated_at": "2026-08-21T03:57:32Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 56,
-  "running": 2,
-  "failed": 4,
-  "ok": 14,
+  "running": 0,
+  "failed": 5,
+  "ok": 15,
   "no_runs": 36
  },
  "repos": [
@@ -219,8 +219,8 @@
      "name": "Build Manager",
      "display_title": "manager: update Vietnamese translations (#3649)",
      "event": "push",
-     "status": "queued",
-     "conclusion": "",
+     "status": "completed",
+     "conclusion": "failure",
      "created_at": "2026-08-21T02:54:56Z",
      "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/32441501370",
      "path": ".github/workflows/build-manager.yml"
@@ -284,8 +284,8 @@
      "name": "Android Build",
      "display_title": "Merge pull request #1004 from AAswordman/development",
      "event": "push",
-     "status": "in_progress",
-     "conclusion": "",
+     "status": "completed",
+     "conclusion": "failure",
      "created_at": "2026-08-21T02:54:56Z",
      "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/32441501424",
      "path": ".github/workflows/android-build.yml"
@@ -615,8 +615,8 @@
      "name": "Init Native E2E",
      "display_title": "deps: bump ai from 6.0.149 to 7.0.59 in /docs (#2277)",
      "event": "push",
-     "status": "queued",
-     "conclusion": "",
+     "status": "completed",
+     "conclusion": "success",
      "created_at": "2026-08-21T02:54:55Z",
      "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32441500135",
      "path": ".github/workflows/init-native-e2e.yml"
@@ -659,8 +659,8 @@
      "name": "Tests",
      "display_title": "docs(claude): the @1 pointer named refuted work",
      "event": "push",
-     "status": "queued",
-     "conclusion": "",
+     "status": "completed",
+     "conclusion": "success",
      "created_at": "2026-08-21T02:54:55Z",
      "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/32441500732",
      "path": ".github/workflows/test.yml"
@@ -734,6 +734,18 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
+     "id": 32442498623,
+     "run_number": 572,
+     "name": "🔄 统一编译触发器（消费入队）",
+     "display_title": "🔄 统一编译触发器（消费入队）",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-21T03:11:33Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32442498623",
+     "path": ".github/workflows/compile_trigger.yml"
+    },
+    {
      "id": 32438596380,
      "run_number": 571,
      "name": "🔄 统一编译触发器（消费入队）",
@@ -743,18 +755,6 @@
      "conclusion": "success",
      "created_at": "2026-08-21T02:05:10Z",
      "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32438596380",
-     "path": ".github/workflows/compile_trigger.yml"
-    },
-    {
-     "id": 32432687807,
-     "run_number": 570,
-     "name": "🔄 统一编译触发器（消费入队）",
-     "display_title": "🔄 统一编译触发器（消费入队）",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-21T00:26:45Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32432687807",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],
