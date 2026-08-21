@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-21T04:48:33Z",
+ "updated_at": "2026-08-21T05:20:13Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 56,
@@ -734,6 +734,18 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
+     "id": 32449356642,
+     "run_number": 575,
+     "name": "🔄 统一编译触发器（消费入队）",
+     "display_title": "🔄 统一编译触发器（消费入队）",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-21T05:06:54Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32449356642",
+     "path": ".github/workflows/compile_trigger.yml"
+    },
+    {
      "id": 32447438080,
      "run_number": 574,
      "name": "🔄 统一编译触发器（消费入队）",
@@ -743,18 +755,6 @@
      "conclusion": "success",
      "created_at": "2026-08-21T04:34:44Z",
      "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32447438080",
-     "path": ".github/workflows/compile_trigger.yml"
-    },
-    {
-     "id": 32445265149,
-     "run_number": 573,
-     "name": "🔄 统一编译触发器（消费入队）",
-     "display_title": "🔄 统一编译触发器（消费入队）",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-21T03:58:36Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32445265149",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],
