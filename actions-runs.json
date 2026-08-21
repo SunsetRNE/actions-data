@@ -1,11 +1,11 @@
 {
- "updated_at": "2026-08-21T01:54:06Z",
+ "updated_at": "2026-08-21T03:03:46Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 56,
-  "running": 0,
+  "running": 2,
   "failed": 4,
-  "ok": 16,
+  "ok": 14,
   "no_runs": 36
  },
  "repos": [
@@ -214,28 +214,28 @@
    "html_url": "https://github.com/SunsetRNE/KernelSU",
    "runs": [
     {
-     "id": 32209941928,
-     "run_number": 8,
+     "id": 32441501370,
+     "run_number": 9,
      "name": "Build Manager",
-     "display_title": "manager: update Indonesian translations (#3645)",
+     "display_title": "manager: update Vietnamese translations (#3649)",
      "event": "push",
-     "status": "completed",
-     "conclusion": "failure",
-     "created_at": "2026-08-19T02:49:36Z",
-     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/32209941928",
+     "status": "queued",
+     "conclusion": "",
+     "created_at": "2026-08-21T02:54:56Z",
+     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/32441501370",
      "path": ".github/workflows/build-manager.yml"
     },
     {
-     "id": 32093116142,
-     "run_number": 7,
-     "name": "Build Manager",
-     "display_title": "manager: support patch remote image (#3644)",
+     "id": 32441500968,
+     "run_number": 4,
+     "name": "ClangFormat check",
+     "display_title": "manager: update Vietnamese translations (#3649)",
      "event": "push",
      "status": "completed",
-     "conclusion": "failure",
-     "created_at": "2026-08-18T02:47:30Z",
-     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/32093116142",
-     "path": ".github/workflows/build-manager.yml"
+     "conclusion": "success",
+     "created_at": "2026-08-21T02:54:56Z",
+     "html_url": "https://github.com/SunsetRNE/KernelSU/actions/runs/32441500968",
+     "path": ".github/workflows/clang-format.yml"
     }
    ],
    "note": ""
@@ -267,28 +267,28 @@
    "html_url": "https://github.com/SunsetRNE/Operit",
    "runs": [
     {
-     "id": 31989309874,
-     "run_number": 12,
-     "name": "Android Build",
-     "display_title": "Merge pull request #983 from AAswordman/feat/market-contributor-conte…",
+     "id": 32441501459,
+     "run_number": 4,
+     "name": "Android Tests",
+     "display_title": "Merge pull request #1004 from AAswordman/development",
      "event": "push",
      "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-17T02:52:04Z",
-     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31989309874",
-     "path": ".github/workflows/android-build.yml"
+     "conclusion": "failure",
+     "created_at": "2026-08-21T02:54:56Z",
+     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/32441501459",
+     "path": ".github/workflows/android-tests.yml"
     },
     {
-     "id": 31989309855,
-     "run_number": 3,
-     "name": "Android Tests",
-     "display_title": "Merge pull request #983 from AAswordman/feat/market-contributor-conte…",
+     "id": 32441501424,
+     "run_number": 13,
+     "name": "Android Build",
+     "display_title": "Merge pull request #1004 from AAswordman/development",
      "event": "push",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-17T02:52:04Z",
-     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/31989309855",
-     "path": ".github/workflows/android-tests.yml"
+     "status": "in_progress",
+     "conclusion": "",
+     "created_at": "2026-08-21T02:54:56Z",
+     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/32441501424",
+     "path": ".github/workflows/android-build.yml"
     }
    ],
    "note": ""
@@ -525,6 +525,18 @@
    "html_url": "https://github.com/SunsetRNE/auto-green",
    "runs": [
     {
+     "id": 32438727307,
+     "run_number": 165,
+     "name": "Auto Commit",
+     "display_title": "Auto Commit",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-21T02:07:19Z",
+     "html_url": "https://github.com/SunsetRNE/auto-green/actions/runs/32438727307",
+     "path": ".github/workflows/auto-commit.yml"
+    },
+    {
      "id": 32323000391,
      "run_number": 164,
      "name": "Auto Commit",
@@ -534,18 +546,6 @@
      "conclusion": "success",
      "created_at": "2026-08-20T01:59:21Z",
      "html_url": "https://github.com/SunsetRNE/auto-green/actions/runs/32323000391",
-     "path": ".github/workflows/auto-commit.yml"
-    },
-    {
-     "id": 32206982896,
-     "run_number": 163,
-     "name": "Auto Commit",
-     "display_title": "Auto Commit",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-19T02:00:31Z",
-     "html_url": "https://github.com/SunsetRNE/auto-green/actions/runs/32206982896",
      "path": ".github/workflows/auto-commit.yml"
     }
    ],
@@ -610,28 +610,28 @@
    "html_url": "https://github.com/SunsetRNE/headroom",
    "runs": [
     {
-     "id": 32388317888,
-     "run_number": 12,
-     "name": "Stale Triage",
-     "display_title": "Stale Triage",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-20T15:48:21Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32388317888",
-     "path": ".github/workflows/stale.yml"
+     "id": 32441500135,
+     "run_number": 18,
+     "name": "Init Native E2E",
+     "display_title": "deps: bump ai from 6.0.149 to 7.0.59 in /docs (#2277)",
+     "event": "push",
+     "status": "queued",
+     "conclusion": "",
+     "created_at": "2026-08-21T02:54:55Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32441500135",
+     "path": ".github/workflows/init-native-e2e.yml"
     },
     {
-     "id": 32383480261,
-     "run_number": 12,
-     "name": "PR Governance",
-     "display_title": "PR Governance",
-     "event": "schedule",
+     "id": 32441500104,
+     "run_number": 18,
+     "name": "Init E2E",
+     "display_title": "deps: bump ai from 6.0.149 to 7.0.59 in /docs (#2277)",
+     "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-20T14:59:50Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32383480261",
-     "path": ".github/workflows/pr-health.yml"
+     "created_at": "2026-08-21T02:54:55Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32441500104",
+     "path": ".github/workflows/init-e2e.yml"
     }
    ],
    "note": ""
@@ -642,27 +642,27 @@
    "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp",
    "runs": [
     {
-     "id": 32325973888,
-     "run_number": 17,
+     "id": 32441500738,
+     "run_number": 18,
      "name": "Replay",
-     "display_title": "docs(claude): CLA erase-on-push is a tendency, not a remedy (3 erased…",
+     "display_title": "docs(claude): the @1 pointer named refuted work",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-20T02:48:49Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/32325973888",
+     "created_at": "2026-08-21T02:54:55Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/32441500738",
      "path": ".github/workflows/replay.yml"
     },
     {
-     "id": 32325973839,
-     "run_number": 17,
+     "id": 32441500732,
+     "run_number": 18,
      "name": "Tests",
-     "display_title": "docs(claude): CLA erase-on-push is a tendency, not a remedy (3 erased…",
+     "display_title": "docs(claude): the @1 pointer named refuted work",
      "event": "push",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-20T02:48:49Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/32325973839",
+     "status": "queued",
+     "conclusion": "",
+     "created_at": "2026-08-21T02:54:55Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/32441500732",
      "path": ".github/workflows/test.yml"
     }
    ],
@@ -734,6 +734,18 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
+     "id": 32438596380,
+     "run_number": 571,
+     "name": "🔄 统一编译触发器（消费入队）",
+     "display_title": "🔄 统一编译触发器（消费入队）",
+     "event": "schedule",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-21T02:05:10Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32438596380",
+     "path": ".github/workflows/compile_trigger.yml"
+    },
+    {
      "id": 32432687807,
      "run_number": 570,
      "name": "🔄 统一编译触发器（消费入队）",
@@ -743,18 +755,6 @@
      "conclusion": "success",
      "created_at": "2026-08-21T00:26:45Z",
      "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32432687807",
-     "path": ".github/workflows/compile_trigger.yml"
-    },
-    {
-     "id": 32430426072,
-     "run_number": 569,
-     "name": "🔄 统一编译触发器（消费入队）",
-     "display_title": "🔄 统一编译触发器（消费入队）",
-     "event": "schedule",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-20T23:52:26Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32430426072",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],

@@ -448,5 +448,32 @@
   "run": "🔄 统一编译触发器（消费入队）",
   "run_number": 554,
   "conclusion": "success"
+ },
+ {
+  "t": "2026-08-21T03:03:46Z",
+  "repo": "KernelSU",
+  "from": "failed",
+  "to": "running",
+  "run": "Build Manager",
+  "run_number": 9,
+  "conclusion": ""
+ },
+ {
+  "t": "2026-08-21T03:03:46Z",
+  "repo": "Operit",
+  "from": "ok",
+  "to": "failed",
+  "run": "Android Tests",
+  "run_number": 4,
+  "conclusion": "failure"
+ },
+ {
+  "t": "2026-08-21T03:03:46Z",
+  "repo": "headroom",
+  "from": "ok",
+  "to": "running",
+  "run": "Init Native E2E",
+  "run_number": 18,
+  "conclusion": ""
  }
 ]
