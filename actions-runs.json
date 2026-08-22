@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-22T02:37:48Z",
+ "updated_at": "2026-08-22T03:25:56Z",
  "generated_by": "actions_monitor.py",
  "summary": {
   "total": 56,
@@ -267,28 +267,28 @@
    "html_url": "https://github.com/SunsetRNE/Operit",
    "runs": [
     {
-     "id": 32441501459,
-     "run_number": 4,
-     "name": "Android Tests",
-     "display_title": "Merge pull request #1004 from AAswordman/development",
+     "id": 32547142177,
+     "run_number": 14,
+     "name": "Android Build",
+     "display_title": "Merge pull request #1008 into main",
      "event": "push",
      "status": "completed",
      "conclusion": "failure",
-     "created_at": "2026-08-21T02:54:56Z",
-     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/32441501459",
-     "path": ".github/workflows/android-tests.yml"
+     "created_at": "2026-08-22T02:45:54Z",
+     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/32547142177",
+     "path": ".github/workflows/android-build.yml"
     },
     {
-     "id": 32441501424,
-     "run_number": 13,
-     "name": "Android Build",
-     "display_title": "Merge pull request #1004 from AAswordman/development",
+     "id": 32547142145,
+     "run_number": 5,
+     "name": "Android Tests",
+     "display_title": "Merge pull request #1008 into main",
      "event": "push",
      "status": "completed",
      "conclusion": "failure",
-     "created_at": "2026-08-21T02:54:56Z",
-     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/32441501424",
-     "path": ".github/workflows/android-build.yml"
+     "created_at": "2026-08-22T02:45:54Z",
+     "html_url": "https://github.com/SunsetRNE/Operit/actions/runs/32547142145",
+     "path": ".github/workflows/android-tests.yml"
     }
    ],
    "note": ""
@@ -578,6 +578,18 @@
    "html_url": "https://github.com/SunsetRNE/device_faker",
    "runs": [
     {
+     "id": 32547141087,
+     "run_number": 6,
+     "name": "Build Device Faker Module",
+     "display_title": "feat(webui): 自定义属性伪装开放编辑 + 表单布局调整",
+     "event": "push",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-08-22T02:45:53Z",
+     "html_url": "https://github.com/SunsetRNE/device_faker/actions/runs/32547141087",
+     "path": ".github/workflows/build.yml"
+    },
+    {
      "id": 31665608945,
      "run_number": 5,
      "name": "Build Device Faker Module",
@@ -587,18 +599,6 @@
      "conclusion": "success",
      "created_at": "2026-08-13T03:59:57Z",
      "html_url": "https://github.com/SunsetRNE/device_faker/actions/runs/31665608945",
-     "path": ".github/workflows/build.yml"
-    },
-    {
-     "id": 31292348869,
-     "run_number": 4,
-     "name": "Build Device Faker Module",
-     "display_title": "refactor(webui): 移除WebUI设置页默认强制卸载挂载点开关",
-     "event": "push",
-     "status": "completed",
-     "conclusion": "success",
-     "created_at": "2026-08-09T03:24:10Z",
-     "html_url": "https://github.com/SunsetRNE/device_faker/actions/runs/31292348869",
      "path": ".github/workflows/build.yml"
     }
    ],
@@ -610,28 +610,28 @@
    "html_url": "https://github.com/SunsetRNE/headroom",
    "runs": [
     {
-     "id": 32499531320,
-     "run_number": 13,
-     "name": "Stale Triage",
-     "display_title": "Stale Triage",
-     "event": "schedule",
+     "id": 32547141141,
+     "run_number": 19,
+     "name": "Init E2E",
+     "display_title": "fix: skip cross-turn dedup pointers on OpenAI chat streaming (#3191)",
+     "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-21T15:47:44Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32499531320",
-     "path": ".github/workflows/stale.yml"
+     "created_at": "2026-08-22T02:45:53Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32547141141",
+     "path": ".github/workflows/init-e2e.yml"
     },
     {
-     "id": 32495083181,
-     "run_number": 13,
-     "name": "PR Governance",
-     "display_title": "PR Governance",
-     "event": "schedule",
+     "id": 32547141136,
+     "run_number": 19,
+     "name": "Install Native E2E",
+     "display_title": "fix: skip cross-turn dedup pointers on OpenAI chat streaming (#3191)",
+     "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-21T14:58:49Z",
-     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32495083181",
-     "path": ".github/workflows/pr-health.yml"
+     "created_at": "2026-08-22T02:45:53Z",
+     "html_url": "https://github.com/SunsetRNE/headroom/actions/runs/32547141136",
+     "path": ".github/workflows/install-native-e2e.yml"
     }
    ],
    "note": ""
@@ -642,27 +642,27 @@
    "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp",
    "runs": [
     {
-     "id": 32441500738,
-     "run_number": 18,
+     "id": 32547141846,
+     "run_number": 19,
      "name": "Replay",
-     "display_title": "docs(claude): the @1 pointer named refuted work",
+     "display_title": "Merge pull request #532 from jgravelle/bench/kset-floor",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-21T02:54:55Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/32441500738",
+     "created_at": "2026-08-22T02:45:54Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/32547141846",
      "path": ".github/workflows/replay.yml"
     },
     {
-     "id": 32441500732,
-     "run_number": 18,
+     "id": 32547141843,
+     "run_number": 19,
      "name": "Tests",
-     "display_title": "docs(claude): the @1 pointer named refuted work",
+     "display_title": "Merge pull request #532 from jgravelle/bench/kset-floor",
      "event": "push",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-21T02:54:55Z",
-     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/32441500732",
+     "created_at": "2026-08-22T02:45:54Z",
+     "html_url": "https://github.com/SunsetRNE/jcodemunch-mcp/actions/runs/32547141843",
      "path": ".github/workflows/test.yml"
     }
    ],
@@ -734,27 +734,27 @@
    "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme",
    "runs": [
     {
-     "id": 32544773764,
-     "run_number": 616,
+     "id": 32548894961,
+     "run_number": 618,
      "name": "🔄 统一编译触发器（消费入队）",
      "display_title": "🔄 统一编译触发器（消费入队）",
      "event": "schedule",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-22T01:54:36Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32544773764",
+     "created_at": "2026-08-22T03:24:46Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32548894961",
      "path": ".github/workflows/compile_trigger.yml"
     },
     {
-     "id": 32540231033,
-     "run_number": 615,
+     "id": 32547051393,
+     "run_number": 617,
      "name": "🔄 统一编译触发器（消费入队）",
      "display_title": "🔄 统一编译触发器（消费入队）",
      "event": "schedule",
      "status": "completed",
      "conclusion": "success",
-     "created_at": "2026-08-22T00:24:16Z",
-     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32540231033",
+     "created_at": "2026-08-22T02:43:56Z",
+     "html_url": "https://github.com/SunsetRNE/oppo_oplus_realme/actions/runs/32547051393",
      "path": ".github/workflows/compile_trigger.yml"
     }
    ],
